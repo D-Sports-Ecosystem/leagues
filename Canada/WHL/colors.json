@@ -3,12 +3,48 @@
   "light": {
     "primary": "#CE0E2D",
     "secondary": "#000000",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 5.64
+      },
+      "on_secondary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 21.0
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "dark": {
     "primary": "#FF4D65",
     "secondary": "#CCCCCC",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.92
+      },
+      "on_primary": {
+        "color": "#000000",
+        "contrast_ratio": 6.5
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 13.08
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "source": "chl.ca/whl CSS (--wp--preset--color--accent: #ce0e2d) + logotyp.us/logo/whl"
 }

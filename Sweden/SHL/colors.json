@@ -3,12 +3,48 @@
   "light": {
     "primary": "#171316",
     "secondary": "#C8A951",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.4
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 9.25
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "dark": {
     "primary": "#D4B96A",
     "secondary": "#CCCCCC",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.92
+      },
+      "on_primary": {
+        "color": "#000000",
+        "contrast_ratio": 10.95
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 13.08
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "source": "sportsfancovers.com/swedish-hockey-league-color-codes + logotyp.us/logo/swedish-hockey-league"
 }

@@ -3,12 +3,48 @@
   "light": {
     "primary": "#041E42",
     "secondary": "#C8102E",
-    "accent": "#00A9E0"
+    "accent": "#00A9E0",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 16.54
+      },
+      "on_secondary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 5.88
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 7.75
+      }
+    }
   },
   "dark": {
     "primary": "#00A9E0",
     "secondary": "#C8102E",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.92
+      },
+      "on_primary": {
+        "color": "#000000",
+        "contrast_ratio": 7.75
+      },
+      "on_secondary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 5.88
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "source": "nhl.com CSS custom properties (--theme-nhl_* variables)"
 }

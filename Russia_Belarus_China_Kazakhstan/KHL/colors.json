@@ -3,12 +3,48 @@
   "light": {
     "primary": "#070E16",
     "secondary": "#899194",
-    "accent": "#C9CDCF"
+    "accent": "#C9CDCF",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 19.38
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 6.54
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 13.12
+      }
+    }
   },
   "dark": {
     "primary": "#C9CDCF",
     "secondary": "#899194",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.92
+      },
+      "on_primary": {
+        "color": "#000000",
+        "contrast_ratio": 13.12
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 6.54
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "source": "logotyp.us/logo/khl (2016-present black/silver redesign)"
 }

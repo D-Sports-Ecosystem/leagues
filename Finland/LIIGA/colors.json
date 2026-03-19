@@ -3,12 +3,48 @@
   "light": {
     "primary": "#231F20",
     "secondary": "#535051",
-    "accent": "#DDDCDC"
+    "accent": "#DDDCDC",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 16.3
+      },
+      "on_secondary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 7.97
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 15.35
+      }
+    }
   },
   "dark": {
     "primary": "#DDDCDC",
     "secondary": "#7E7C7D",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.92
+      },
+      "on_primary": {
+        "color": "#000000",
+        "contrast_ratio": 15.35
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 5.07
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "source": "sportsfancovers.com/liiga-color-codes + logotyp.us/logo/liiga"
 }

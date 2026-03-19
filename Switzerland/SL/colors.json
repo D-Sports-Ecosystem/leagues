@@ -3,12 +3,48 @@
   "light": {
     "primary": "#003F8A",
     "secondary": "#C8102E",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 10.11
+      },
+      "on_secondary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 5.88
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "dark": {
     "primary": "#4D7EC9",
     "secondary": "#E84060",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.92
+      },
+      "on_primary": {
+        "color": "#000000",
+        "contrast_ratio": 5.14
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 5.33
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "source": "sihf.ch Swiss League page CSS (SIHF federation colors)"
 }

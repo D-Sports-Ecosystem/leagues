@@ -3,12 +3,48 @@
   "light": {
     "primary": "#004990",
     "secondary": "#EF3E42",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 8.91
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 5.44
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "dark": {
     "primary": "#4D8FD1",
     "secondary": "#EF3E42",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.92
+      },
+      "on_primary": {
+        "color": "#000000",
+        "contrast_ratio": 6.17
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 5.44
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "source": "sportsfancovers.com + logotyp.us/logo/american-hockey-league"
 }

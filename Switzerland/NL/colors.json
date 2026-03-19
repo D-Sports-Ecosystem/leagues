@@ -3,12 +3,48 @@
   "light": {
     "primary": "#C8102E",
     "secondary": "#1A1A1A",
-    "accent": "#9A9A9A"
+    "accent": "#9A9A9A",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 5.88
+      },
+      "on_secondary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 17.4
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 7.46
+      }
+    }
   },
   "dark": {
     "primary": "#E84060",
     "secondary": "#CCCCCC",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.92
+      },
+      "on_primary": {
+        "color": "#000000",
+        "contrast_ratio": 5.33
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 13.08
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "source": "1000logos.net/national-league-switzerland-logo (red primary, black/silver secondary)"
 }

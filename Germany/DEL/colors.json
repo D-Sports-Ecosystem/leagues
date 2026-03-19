@@ -3,12 +3,48 @@
   "light": {
     "primary": "#D40528",
     "secondary": "#8C9499",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 5.45
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 6.81
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "dark": {
     "primary": "#E8414F",
     "secondary": "#AAB5BA",
-    "accent": "#FFFFFF"
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 18.92
+      },
+      "on_primary": {
+        "color": "#000000",
+        "contrast_ratio": 5.3
+      },
+      "on_secondary": {
+        "color": "#000000",
+        "contrast_ratio": 10.03
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
   },
   "source": "sportsfancovers.com/deutsche-eishockey-liga-color-codes"
 }
