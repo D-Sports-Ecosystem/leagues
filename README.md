@@ -8,11 +8,12 @@ Official logos, brand color palettes, and WCAG 2.1 accessibility reports for 17 
 leagues/
 ├── <Country>/
 │   └── <League>/
-│       ├── logo.*                  # Official logo (SVG or PNG, highest available resolution)
-│       ├── colors.json             # Brand colors — primary, secondary, accent for light & dark mode
-│       └── accessibility_report.json  # WCAG 2.1 contrast audit for all color pairs
-├── accessibility_audit.txt         # Full audit report across all leagues
-└── accessibility_audit.py          # Script used to generate the audit
+│       ├── logo.*                     # Official logo (SVG or PNG, highest available resolution)
+│       ├── colors.json                # Brand colors — primary, secondary, accent + accessible text colors for light & dark mode
+│       └── accessibility_report.json  # WCAG 2.1 contrast audit for all color pair combos
+├── accessibility_audit.txt            # Full audit report across all leagues
+├── accessibility_audit.py             # Script used to generate the audit
+└── add_text_colors.py                 # Script used to compute and write text colors
 ```
 
 ## Leagues
@@ -47,16 +48,30 @@ Each `colors.json` follows this structure:
   "light": {
     "primary":   "#041E42",
     "secondary": "#C8102E",
-    "accent":    "#00A9E0"
+    "accent":    "#00A9E0",
+    "text": {
+      "on_background": { "color": "#000000", "contrast_ratio": 21.0 },
+      "on_primary":    { "color": "#FFFFFF",  "contrast_ratio": 16.54 },
+      "on_secondary":  { "color": "#FFFFFF",  "contrast_ratio": 5.88 },
+      "on_accent":     { "color": "#000000",  "contrast_ratio": 7.75 }
+    }
   },
   "dark": {
     "primary":   "#00A9E0",
     "secondary": "#C8102E",
-    "accent":    "#FFFFFF"
+    "accent":    "#FFFFFF",
+    "text": {
+      "on_background": { "color": "#FFFFFF",  "contrast_ratio": 18.92 },
+      "on_primary":    { "color": "#000000",  "contrast_ratio": 7.75 },
+      "on_secondary":  { "color": "#FFFFFF",  "contrast_ratio": 5.88 },
+      "on_accent":     { "color": "#000000",  "contrast_ratio": 21.0 }
+    }
   },
   "source": "nhl.com CSS custom properties"
 }
 ```
+
+Each `text` block provides the highest-contrast readable text color (`#FFFFFF` or `#000000`) for every surface — chosen by WCAG 2.1 contrast ratio comparison against the surface color. The `contrast_ratio` is included for auditability. Dark mode background baseline is `#0D1117`.
 
 Colors are sourced from official websites, CSS custom properties, and brand guidelines where available.
 
