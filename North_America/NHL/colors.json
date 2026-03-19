@@ -1,0 +1,14 @@
+{
+  "league": "NHL",
+  "light": {
+    "primary": "#041E42",
+    "secondary": "#C8102E",
+    "accent": "#00A9E0"
+  },
+  "dark": {
+    "primary": "#00A9E0",
+    "secondary": "#C8102E",
+    "accent": "#FFFFFF"
+  },
+  "source": "nhl.com CSS custom properties (--theme-nhl_* variables)"
+}

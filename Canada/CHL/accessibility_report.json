@@ -1,0 +1,139 @@
+{
+  "league": "CHL",
+  "scores": {
+    "light_mode": 57,
+    "dark_mode": 62,
+    "overall": 60,
+    "verdict": "Needs Work"
+  },
+  "light_mode": [
+    {
+      "pair": "Primary on light bg",
+      "foreground": "#002654",
+      "background": "#FFFFFF",
+      "ratio": 14.94,
+      "normal_text": "AAA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Secondary on light bg",
+      "foreground": "#BF1E2E",
+      "background": "#FFFFFF",
+      "ratio": 6.1,
+      "normal_text": "AA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Accent on light bg",
+      "foreground": "#FFFFFF",
+      "background": "#FFFFFF",
+      "ratio": 1.0,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Primary on Secondary",
+      "foreground": "#002654",
+      "background": "#BF1E2E",
+      "ratio": 2.45,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Secondary on Primary",
+      "foreground": "#BF1E2E",
+      "background": "#002654",
+      "ratio": 2.45,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Accent on Primary",
+      "foreground": "#FFFFFF",
+      "background": "#002654",
+      "ratio": 14.94,
+      "normal_text": "AAA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Accent on Secondary",
+      "foreground": "#FFFFFF",
+      "background": "#BF1E2E",
+      "ratio": 6.1,
+      "normal_text": "AA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    }
+  ],
+  "dark_mode": [
+    {
+      "pair": "Primary on dark bg",
+      "foreground": "#4D7AB5",
+      "background": "#000000",
+      "ratio": 4.77,
+      "normal_text": "AA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Secondary on dark bg",
+      "foreground": "#E03A4A",
+      "background": "#000000",
+      "ratio": 4.87,
+      "normal_text": "AA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Accent on dark bg",
+      "foreground": "#FFFFFF",
+      "background": "#000000",
+      "ratio": 21.0,
+      "normal_text": "AAA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Primary on Secondary",
+      "foreground": "#4D7AB5",
+      "background": "#E03A4A",
+      "ratio": 1.02,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Secondary on Primary",
+      "foreground": "#E03A4A",
+      "background": "#4D7AB5",
+      "ratio": 1.02,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Accent on Primary",
+      "foreground": "#FFFFFF",
+      "background": "#4D7AB5",
+      "ratio": 4.41,
+      "normal_text": "FAIL",
+      "large_text": "AA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Accent on Secondary",
+      "foreground": "#FFFFFF",
+      "background": "#E03A4A",
+      "ratio": 4.31,
+      "normal_text": "FAIL",
+      "large_text": "AA",
+      "ui_component": "AA"
+    }
+  ]
+}

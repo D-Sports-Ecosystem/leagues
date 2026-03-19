@@ -1,0 +1,14 @@
+{
+  "league": "DEL",
+  "light": {
+    "primary": "#D40528",
+    "secondary": "#8C9499",
+    "accent": "#FFFFFF"
+  },
+  "dark": {
+    "primary": "#E8414F",
+    "secondary": "#AAB5BA",
+    "accent": "#FFFFFF"
+  },
+  "source": "sportsfancovers.com/deutsche-eishockey-liga-color-codes"
+}

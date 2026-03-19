@@ -1,0 +1,14 @@
+{
+  "league": "SL",
+  "light": {
+    "primary": "#003F8A",
+    "secondary": "#C8102E",
+    "accent": "#FFFFFF"
+  },
+  "dark": {
+    "primary": "#4D7EC9",
+    "secondary": "#E84060",
+    "accent": "#FFFFFF"
+  },
+  "source": "sihf.ch Swiss League page CSS (SIHF federation colors)"
+}

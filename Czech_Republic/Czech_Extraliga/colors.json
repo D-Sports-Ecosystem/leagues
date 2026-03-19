@@ -1,0 +1,14 @@
+{
+  "league": "CzechExtraliga",
+  "light": {
+    "primary": "#00355F",
+    "secondary": "#ED1C24",
+    "accent": "#F89B1C"
+  },
+  "dark": {
+    "primary": "#00AEEF",
+    "secondary": "#ED1C24",
+    "accent": "#F89B1C"
+  },
+  "source": "sportsfancovers.com/czech-extraliga-color-codes"
+}

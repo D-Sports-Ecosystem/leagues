@@ -1,0 +1,14 @@
+{
+  "league": "NL",
+  "light": {
+    "primary": "#C8102E",
+    "secondary": "#1A1A1A",
+    "accent": "#9A9A9A"
+  },
+  "dark": {
+    "primary": "#E84060",
+    "secondary": "#CCCCCC",
+    "accent": "#FFFFFF"
+  },
+  "source": "1000logos.net/national-league-switzerland-logo (red primary, black/silver secondary)"
+}

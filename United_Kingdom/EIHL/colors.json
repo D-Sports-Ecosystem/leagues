@@ -1,0 +1,14 @@
+{
+  "league": "EIHL",
+  "light": {
+    "primary": "#2D5796",
+    "secondary": "#C82A40",
+    "accent": "#AAAAAB"
+  },
+  "dark": {
+    "primary": "#5B85C9",
+    "secondary": "#E05060",
+    "accent": "#CCCCCC"
+  },
+  "source": "sportsfancovers.com/elite-ice-hockey-league-color-codes"
+}

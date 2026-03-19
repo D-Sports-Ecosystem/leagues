@@ -1,0 +1,508 @@
+====================================================================================================
+  HOCKEY LEAGUE COLOR ACCESSIBILITY AUDIT — WCAG 2.1
+====================================================================================================
+
+  Scoring: % of color-pair checks that pass (normal text + large text + UI component)
+  Thresholds: AA normal text ≥4.5:1 | AA large text ≥3:1 | UI component ≥3:1 | AAA normal ≥7:1
+
+  SUMMARY
+  ------------------------------------------------------------
+  League                  Light      Dark   Overall  Verdict
+  ------------------------------------------------------------
+  OHL                       86%       43%       64%  ██████░░░░  Needs Work
+  WHL                       76%       52%       64%  ██████░░░░  Needs Work
+  QMJHL                     76%       52%       64%  ██████░░░░  Needs Work
+  NCAA                      76%       52%       64%  ██████░░░░  Needs Work
+  LIIGA                     57%       71%       64%  ██████░░░░  Needs Work
+  AlpsHL                    76%       52%       64%  ██████░░░░  Needs Work
+  CHL                       57%       62%       60%  ██████░░░░  Needs Work
+  KHL                       67%       52%       60%  ██████░░░░  Needs Work
+  SL                        57%       62%       60%  ██████░░░░  Needs Work
+  AHL                       48%       62%       55%  █████░░░░░  Needs Work
+  SHL                       57%       43%       50%  █████░░░░░  Needs Work
+  DEL                       48%       52%       50%  █████░░░░░  Needs Work
+  NHL                       43%       52%       48%  ████░░░░░░  Poor
+  NL                        43%       52%       48%  ████░░░░░░  Poor
+  ECHL                      38%       43%       40%  ████░░░░░░  Poor
+  Czech Extraliga           38%       43%       40%  ████░░░░░░  Poor
+  EIHL                      38%       43%       40%  ████░░░░░░  Poor
+
+====================================================================================================
+  NHL
+  Light mode colors → primary:#041E42  secondary:#C8102E  accent:#00A9E0
+  Dark  mode colors → primary:#00A9E0  secondary:#C8102E  accent:#FFFFFF
+  Scores: Light 43%  |  Dark 52%  |  Overall 48%  [Poor]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #041E42   #FFFFFF    16.54            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #C8102E   #FFFFFF     5.88             🟡 AA            ✅ AAA             🟡 AA
+  Accent on light bg             #00A9E0   #FFFFFF     2.71           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #041E42   #C8102E     2.81           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #C8102E   #041E42     2.81           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #00A9E0   #041E42     6.11             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Secondary            #00A9E0   #C8102E     2.17           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #00A9E0   #000000     7.75            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #C8102E   #000000     3.57           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #00A9E0   #C8102E     2.17           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #C8102E   #00A9E0     2.17           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #00A9E0     2.71           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #FFFFFF   #C8102E     5.88             🟡 AA            ✅ AAA             🟡 AA
+
+====================================================================================================
+  AHL
+  Light mode colors → primary:#004990  secondary:#EF3E42  accent:#FFFFFF
+  Dark  mode colors → primary:#4D8FD1  secondary:#EF3E42  accent:#FFFFFF
+  Scores: Light 48%  |  Dark 62%  |  Overall 55%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #004990   #FFFFFF     8.91            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #EF3E42   #FFFFFF     3.86           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #004990   #EF3E42     2.31           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #EF3E42   #004990     2.31           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #004990     8.91            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on Secondary            #FFFFFF   #EF3E42     3.86           ❌ FAIL             🟡 AA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #4D8FD1   #000000     6.17             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #EF3E42   #000000     5.44             🟡 AA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #4D8FD1   #EF3E42     1.13           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #EF3E42   #4D8FD1     1.13           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #4D8FD1     3.41           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #EF3E42     3.86           ❌ FAIL             🟡 AA             🟡 AA
+
+====================================================================================================
+  CHL
+  Light mode colors → primary:#002654  secondary:#BF1E2E  accent:#FFFFFF
+  Dark  mode colors → primary:#4D7AB5  secondary:#E03A4A  accent:#FFFFFF
+  Scores: Light 57%  |  Dark 62%  |  Overall 60%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #002654   #FFFFFF    14.94            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #BF1E2E   #FFFFFF     6.10             🟡 AA            ✅ AAA             🟡 AA
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #002654   #BF1E2E     2.45           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #BF1E2E   #002654     2.45           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #002654    14.94            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on Secondary            #FFFFFF   #BF1E2E     6.10             🟡 AA            ✅ AAA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #4D7AB5   #000000     4.77             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #E03A4A   #000000     4.87             🟡 AA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #4D7AB5   #E03A4A     1.02           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #E03A4A   #4D7AB5     1.02           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #4D7AB5     4.41           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #E03A4A     4.31           ❌ FAIL             🟡 AA             🟡 AA
+
+====================================================================================================
+  OHL
+  Light mode colors → primary:#1F7CB6  secondary:#000000  accent:#FFFFFF
+  Dark  mode colors → primary:#4DA3DB  secondary:#CCCCCC  accent:#FFFFFF
+  Scores: Light 86%  |  Dark 43%  |  Overall 64%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #1F7CB6   #FFFFFF     4.55             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on light bg          #000000   #FFFFFF    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #1F7CB6   #000000     4.62             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on Primary           #000000   #1F7CB6     4.62             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Primary              #FFFFFF   #1F7CB6     4.55             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Secondary            #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #4DA3DB   #000000     7.58            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #CCCCCC   #000000    13.08            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #4DA3DB   #CCCCCC     1.73           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #CCCCCC   #4DA3DB     1.73           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #4DA3DB     2.77           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #FFFFFF   #CCCCCC     1.61           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  WHL
+  Light mode colors → primary:#CE0E2D  secondary:#000000  accent:#FFFFFF
+  Dark  mode colors → primary:#FF4D65  secondary:#CCCCCC  accent:#FFFFFF
+  Scores: Light 76%  |  Dark 52%  |  Overall 64%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #CE0E2D   #FFFFFF     5.64             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on light bg          #000000   #FFFFFF    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #CE0E2D   #000000     3.73           ❌ FAIL             🟡 AA             🟡 AA
+  Secondary on Primary           #000000   #CE0E2D     3.73           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Primary              #FFFFFF   #CE0E2D     5.64             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Secondary            #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #FF4D65   #000000     6.50             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #CCCCCC   #000000    13.08            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #FF4D65   #CCCCCC     2.01           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #CCCCCC   #FF4D65     2.01           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #FF4D65     3.23           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #CCCCCC     1.61           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  QMJHL
+  Light mode colors → primary:#0060A9  secondary:#000000  accent:#FFFFFF
+  Dark  mode colors → primary:#3D8FD4  secondary:#CCCCCC  accent:#FFFFFF
+  Scores: Light 76%  |  Dark 52%  |  Overall 64%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #0060A9   #FFFFFF     6.47             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on light bg          #000000   #FFFFFF    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #0060A9   #000000     3.25           ❌ FAIL             🟡 AA             🟡 AA
+  Secondary on Primary           #000000   #0060A9     3.25           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Primary              #FFFFFF   #0060A9     6.47             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Secondary            #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #3D8FD4   #000000     6.08             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #CCCCCC   #000000    13.08            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #3D8FD4   #CCCCCC     2.15           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #CCCCCC   #3D8FD4     2.15           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #3D8FD4     3.46           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #CCCCCC     1.61           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  ECHL
+  Light mode colors → primary:#004685  secondary:#E13A3E  accent:#003E70
+  Dark  mode colors → primary:#4D8FD1  secondary:#E87577  accent:#7AB3E0
+  Scores: Light 38%  |  Dark 43%  |  Overall 40%  [Poor]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #004685   #FFFFFF     9.48            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #E13A3E   #FFFFFF     4.31           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on light bg             #003E70   #FFFFFF    10.92            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #004685   #E13A3E     2.20           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #E13A3E   #004685     2.20           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #003E70   #004685     1.15           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #003E70   #E13A3E     2.54           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #4D8FD1   #000000     6.17             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #E87577   #000000     7.24            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on dark bg              #7AB3E0   #000000     9.35            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #4D8FD1   #E87577     1.17           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #E87577   #4D8FD1     1.17           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #7AB3E0   #4D8FD1     1.52           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #7AB3E0   #E87577     1.29           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  NCAA
+  Light mode colors → primary:#009CDE  secondary:#000000  accent:#FFFFFF
+  Dark  mode colors → primary:#009CDE  secondary:#CCCCCC  accent:#FFFFFF
+  Scores: Light 76%  |  Dark 52%  |  Overall 64%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #009CDE   #FFFFFF     3.08           ❌ FAIL             🟡 AA             🟡 AA
+  Secondary on light bg          #000000   #FFFFFF    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #009CDE   #000000     6.81             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on Primary           #000000   #009CDE     6.81             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Primary              #FFFFFF   #009CDE     3.08           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #009CDE   #000000     6.81             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #CCCCCC   #000000    13.08            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #009CDE   #CCCCCC     1.92           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #CCCCCC   #009CDE     1.92           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #009CDE     3.08           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #CCCCCC     1.61           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  SHL
+  Light mode colors → primary:#171316  secondary:#C8A951  accent:#FFFFFF
+  Dark  mode colors → primary:#D4B96A  secondary:#CCCCCC  accent:#FFFFFF
+  Scores: Light 57%  |  Dark 43%  |  Overall 50%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #171316   #FFFFFF    18.40            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #C8A951   #FFFFFF     2.27           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #171316   #C8A951     8.11            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on Primary           #C8A951   #171316     8.11            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on Primary              #FFFFFF   #171316    18.40            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on Secondary            #FFFFFF   #C8A951     2.27           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #D4B96A   #000000    10.95            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #CCCCCC   #000000    13.08            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #D4B96A   #CCCCCC     1.19           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #CCCCCC   #D4B96A     1.19           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #D4B96A     1.92           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #FFFFFF   #CCCCCC     1.61           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  DEL
+  Light mode colors → primary:#D40528  secondary:#8C9499  accent:#FFFFFF
+  Dark  mode colors → primary:#E8414F  secondary:#AAB5BA  accent:#FFFFFF
+  Scores: Light 48%  |  Dark 52%  |  Overall 50%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #D40528   #FFFFFF     5.45             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on light bg          #8C9499   #FFFFFF     3.08           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #D40528   #8C9499     1.77           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #8C9499   #D40528     1.77           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #D40528     5.45             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Secondary            #FFFFFF   #8C9499     3.08           ❌ FAIL             🟡 AA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #E8414F   #000000     5.30             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #AAB5BA   #000000    10.03            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #E8414F   #AAB5BA     1.89           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #AAB5BA   #E8414F     1.89           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #E8414F     3.96           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #AAB5BA     2.09           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  KHL
+  Light mode colors → primary:#070E16  secondary:#899194  accent:#C9CDCF
+  Dark  mode colors → primary:#C9CDCF  secondary:#899194  accent:#FFFFFF
+  Scores: Light 67%  |  Dark 52%  |  Overall 60%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #070E16   #FFFFFF    19.38            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #899194   #FFFFFF     3.21           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on light bg             #C9CDCF   #FFFFFF     1.60           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #070E16   #899194     6.04             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on Primary           #899194   #070E16     6.04             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Primary              #C9CDCF   #070E16    12.11            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on Secondary            #C9CDCF   #899194     2.01           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #C9CDCF   #000000    13.12            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #899194   #000000     6.54             🟡 AA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #C9CDCF   #899194     2.01           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #899194   #C9CDCF     2.01           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #C9CDCF     1.60           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #FFFFFF   #899194     3.21           ❌ FAIL             🟡 AA             🟡 AA
+
+====================================================================================================
+  LIIGA
+  Light mode colors → primary:#231F20  secondary:#535051  accent:#DDDCDC
+  Dark  mode colors → primary:#DDDCDC  secondary:#7E7C7D  accent:#FFFFFF
+  Scores: Light 57%  |  Dark 71%  |  Overall 64%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #231F20   #FFFFFF    16.30            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #535051   #FFFFFF     7.97            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on light bg             #DDDCDC   #FFFFFF     1.37           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #231F20   #535051     2.04           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #535051   #231F20     2.04           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #DDDCDC   #231F20    11.91            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on Secondary            #DDDCDC   #535051     5.83             🟡 AA            ✅ AAA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #DDDCDC   #000000    15.35            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #7E7C7D   #000000     5.07             🟡 AA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #DDDCDC   #7E7C7D     3.03           ❌ FAIL             🟡 AA             🟡 AA
+  Secondary on Primary           #7E7C7D   #DDDCDC     3.03           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Primary              #FFFFFF   #DDDCDC     1.37           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #FFFFFF   #7E7C7D     4.15           ❌ FAIL             🟡 AA             🟡 AA
+
+====================================================================================================
+  NL
+  Light mode colors → primary:#C8102E  secondary:#1A1A1A  accent:#9A9A9A
+  Dark  mode colors → primary:#E84060  secondary:#CCCCCC  accent:#FFFFFF
+  Scores: Light 43%  |  Dark 52%  |  Overall 48%  [Poor]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #C8102E   #FFFFFF     5.88             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on light bg          #1A1A1A   #FFFFFF    17.40            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on light bg             #9A9A9A   #FFFFFF     2.81           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #C8102E   #1A1A1A     2.96           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #1A1A1A   #C8102E     2.96           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #9A9A9A   #C8102E     2.09           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #9A9A9A   #1A1A1A     6.19             🟡 AA            ✅ AAA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #E84060   #000000     5.33             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #CCCCCC   #000000    13.08            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #E84060   #CCCCCC     2.45           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #CCCCCC   #E84060     2.45           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #E84060     3.94           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #CCCCCC     1.61           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  SL
+  Light mode colors → primary:#003F8A  secondary:#C8102E  accent:#FFFFFF
+  Dark  mode colors → primary:#4D7EC9  secondary:#E84060  accent:#FFFFFF
+  Scores: Light 57%  |  Dark 62%  |  Overall 60%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #003F8A   #FFFFFF    10.11            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #C8102E   #FFFFFF     5.88             🟡 AA            ✅ AAA             🟡 AA
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #003F8A   #C8102E     1.72           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #C8102E   #003F8A     1.72           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #003F8A    10.11            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on Secondary            #FFFFFF   #C8102E     5.88             🟡 AA            ✅ AAA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #4D7EC9   #000000     5.14             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #E84060   #000000     5.33             🟡 AA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #4D7EC9   #E84060     1.04           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #E84060   #4D7EC9     1.04           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #4D7EC9     4.08           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #E84060     3.94           ❌ FAIL             🟡 AA             🟡 AA
+
+====================================================================================================
+  AlpsHL
+  Light mode colors → primary:#3757A1  secondary:#000000  accent:#FFFFFF
+  Dark  mode colors → primary:#6A8FD4  secondary:#CCCCCC  accent:#FFFFFF
+  Scores: Light 76%  |  Dark 52%  |  Overall 64%  [Needs Work]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #3757A1   #FFFFFF     6.91             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on light bg          #000000   #FFFFFF    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on light bg             #FFFFFF   #FFFFFF     1.00           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #3757A1   #000000     3.04           ❌ FAIL             🟡 AA             🟡 AA
+  Secondary on Primary           #000000   #3757A1     3.04           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Primary              #FFFFFF   #3757A1     6.91             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Secondary            #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #6A8FD4   #000000     6.49             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #CCCCCC   #000000    13.08            ✅ AAA            ✅ AAA             🟡 AA
+  Accent on dark bg              #FFFFFF   #000000    21.00            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #6A8FD4   #CCCCCC     2.01           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #CCCCCC   #6A8FD4     2.01           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #FFFFFF   #6A8FD4     3.23           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #FFFFFF   #CCCCCC     1.61           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  Czech Extraliga
+  Light mode colors → primary:#00355F  secondary:#ED1C24  accent:#F89B1C
+  Dark  mode colors → primary:#00AEEF  secondary:#ED1C24  accent:#F89B1C
+  Scores: Light 38%  |  Dark 43%  |  Overall 40%  [Poor]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #00355F   #FFFFFF    12.54            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #ED1C24   #FFFFFF     4.38           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on light bg             #F89B1C   #FFFFFF     2.17           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #00355F   #ED1C24     2.86           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #ED1C24   #00355F     2.86           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #F89B1C   #00355F     5.79             🟡 AA            ✅ AAA             🟡 AA
+  Accent on Secondary            #F89B1C   #ED1C24     2.02           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #00AEEF   #000000     8.30            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #ED1C24   #000000     4.79             🟡 AA            ✅ AAA             🟡 AA
+  Accent on dark bg              #F89B1C   #000000     9.70            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #00AEEF   #ED1C24     1.73           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #ED1C24   #00AEEF     1.73           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #F89B1C   #00AEEF     1.17           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #F89B1C   #ED1C24     2.02           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  EIHL
+  Light mode colors → primary:#2D5796  secondary:#C82A40  accent:#AAAAAB
+  Dark  mode colors → primary:#5B85C9  secondary:#E05060  accent:#CCCCCC
+  Scores: Light 38%  |  Dark 43%  |  Overall 40%  [Poor]
+
+  ── LIGHT MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on light bg            #2D5796   #FFFFFF     7.20            ✅ AAA            ✅ AAA             🟡 AA
+  Secondary on light bg          #C82A40   #FFFFFF     5.44             🟡 AA            ✅ AAA             🟡 AA
+  Accent on light bg             #AAAAAB   #FFFFFF     2.32           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Primary on Secondary           #2D5796   #C82A40     1.32           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #C82A40   #2D5796     1.32           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #AAAAAB   #2D5796     3.10           ❌ FAIL             🟡 AA             🟡 AA
+  Accent on Secondary            #AAAAAB   #C82A40     2.34           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+  ── DARK MODE ──
+  Pair                           FG        BG         Ratio      Normal       Large          UI
+  --------------------------------------------------------------------------------------------
+  Primary on dark bg             #5B85C9   #000000     5.64             🟡 AA            ✅ AAA             🟡 AA
+  Secondary on dark bg           #E05060   #000000     5.49             🟡 AA            ✅ AAA             🟡 AA
+  Accent on dark bg              #CCCCCC   #000000    13.08            ✅ AAA            ✅ AAA             🟡 AA
+  Primary on Secondary           #5B85C9   #E05060     1.03           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Secondary on Primary           #E05060   #5B85C9     1.03           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Primary              #CCCCCC   #5B85C9     2.32           ❌ FAIL           ❌ FAIL           ❌ FAIL
+  Accent on Secondary            #CCCCCC   #E05060     2.38           ❌ FAIL           ❌ FAIL           ❌ FAIL
+
+====================================================================================================
+  END OF REPORT
+====================================================================================================

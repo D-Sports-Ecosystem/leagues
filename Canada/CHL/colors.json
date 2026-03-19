@@ -1,0 +1,14 @@
+{
+  "league": "CHL",
+  "light": {
+    "primary": "#002654",
+    "secondary": "#BF1E2E",
+    "accent": "#FFFFFF"
+  },
+  "dark": {
+    "primary": "#4D7AB5",
+    "secondary": "#E03A4A",
+    "accent": "#FFFFFF"
+  },
+  "source": "1000logos.net/canadian-hockey-league-chl-logo + chl.ca CSS"
+}

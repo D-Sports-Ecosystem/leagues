@@ -1,0 +1,139 @@
+{
+  "league": "Czech Extraliga",
+  "scores": {
+    "light_mode": 38,
+    "dark_mode": 43,
+    "overall": 40,
+    "verdict": "Poor"
+  },
+  "light_mode": [
+    {
+      "pair": "Primary on light bg",
+      "foreground": "#00355F",
+      "background": "#FFFFFF",
+      "ratio": 12.54,
+      "normal_text": "AAA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Secondary on light bg",
+      "foreground": "#ED1C24",
+      "background": "#FFFFFF",
+      "ratio": 4.38,
+      "normal_text": "FAIL",
+      "large_text": "AA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Accent on light bg",
+      "foreground": "#F89B1C",
+      "background": "#FFFFFF",
+      "ratio": 2.17,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Primary on Secondary",
+      "foreground": "#00355F",
+      "background": "#ED1C24",
+      "ratio": 2.86,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Secondary on Primary",
+      "foreground": "#ED1C24",
+      "background": "#00355F",
+      "ratio": 2.86,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Accent on Primary",
+      "foreground": "#F89B1C",
+      "background": "#00355F",
+      "ratio": 5.79,
+      "normal_text": "AA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Accent on Secondary",
+      "foreground": "#F89B1C",
+      "background": "#ED1C24",
+      "ratio": 2.02,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    }
+  ],
+  "dark_mode": [
+    {
+      "pair": "Primary on dark bg",
+      "foreground": "#00AEEF",
+      "background": "#000000",
+      "ratio": 8.3,
+      "normal_text": "AAA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Secondary on dark bg",
+      "foreground": "#ED1C24",
+      "background": "#000000",
+      "ratio": 4.79,
+      "normal_text": "AA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Accent on dark bg",
+      "foreground": "#F89B1C",
+      "background": "#000000",
+      "ratio": 9.7,
+      "normal_text": "AAA",
+      "large_text": "AAA",
+      "ui_component": "AA"
+    },
+    {
+      "pair": "Primary on Secondary",
+      "foreground": "#00AEEF",
+      "background": "#ED1C24",
+      "ratio": 1.73,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Secondary on Primary",
+      "foreground": "#ED1C24",
+      "background": "#00AEEF",
+      "ratio": 1.73,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Accent on Primary",
+      "foreground": "#F89B1C",
+      "background": "#00AEEF",
+      "ratio": 1.17,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    },
+    {
+      "pair": "Accent on Secondary",
+      "foreground": "#F89B1C",
+      "background": "#ED1C24",
+      "ratio": 2.02,
+      "normal_text": "FAIL",
+      "large_text": "FAIL",
+      "ui_component": "FAIL"
+    }
+  ]
+}

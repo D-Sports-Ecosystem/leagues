@@ -1,0 +1,14 @@
+{
+  "league": "ECHL",
+  "light": {
+    "primary": "#004685",
+    "secondary": "#E13A3E",
+    "accent": "#003E70"
+  },
+  "dark": {
+    "primary": "#4D8FD1",
+    "secondary": "#E87577",
+    "accent": "#7AB3E0"
+  },
+  "source": "echl.com CSS custom properties (--color-brand-primary, --color-brand-secondary, --color-brand-tertiary)"
+}

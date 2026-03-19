@@ -1,0 +1,14 @@
+{
+  "league": "AHL",
+  "light": {
+    "primary": "#004990",
+    "secondary": "#EF3E42",
+    "accent": "#FFFFFF"
+  },
+  "dark": {
+    "primary": "#4D8FD1",
+    "secondary": "#EF3E42",
+    "accent": "#FFFFFF"
+  },
+  "source": "sportsfancovers.com + logotyp.us/logo/american-hockey-league"
+}

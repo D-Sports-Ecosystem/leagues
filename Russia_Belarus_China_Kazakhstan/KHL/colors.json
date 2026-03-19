@@ -1,0 +1,14 @@
+{
+  "league": "KHL",
+  "light": {
+    "primary": "#070E16",
+    "secondary": "#899194",
+    "accent": "#C9CDCF"
+  },
+  "dark": {
+    "primary": "#C9CDCF",
+    "secondary": "#899194",
+    "accent": "#FFFFFF"
+  },
+  "source": "logotyp.us/logo/khl (2016-present black/silver redesign)"
+}

@@ -1,0 +1,14 @@
+{
+  "league": "AlpsHL",
+  "light": {
+    "primary": "#3757A1",
+    "secondary": "#000000",
+    "accent": "#FFFFFF"
+  },
+  "dark": {
+    "primary": "#6A8FD4",
+    "secondary": "#CCCCCC",
+    "accent": "#FFFFFF"
+  },
+  "source": "alps.hockey CSS (#3757A1 dominant brand blue in navigation + UI)"
+}

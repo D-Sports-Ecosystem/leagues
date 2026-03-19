@@ -1,0 +1,14 @@
+{
+  "league": "LIIGA",
+  "light": {
+    "primary": "#231F20",
+    "secondary": "#535051",
+    "accent": "#DDDCDC"
+  },
+  "dark": {
+    "primary": "#DDDCDC",
+    "secondary": "#7E7C7D",
+    "accent": "#FFFFFF"
+  },
+  "source": "sportsfancovers.com/liiga-color-codes + logotyp.us/logo/liiga"
+}

@@ -1,0 +1,14 @@
+{
+  "league": "SHL",
+  "light": {
+    "primary": "#171316",
+    "secondary": "#C8A951",
+    "accent": "#FFFFFF"
+  },
+  "dark": {
+    "primary": "#D4B96A",
+    "secondary": "#CCCCCC",
+    "accent": "#FFFFFF"
+  },
+  "source": "sportsfancovers.com/swedish-hockey-league-color-codes + logotyp.us/logo/swedish-hockey-league"
+}
