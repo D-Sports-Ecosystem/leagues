@@ -1,0 +1,27 @@
+name: Sync to D-Sports API
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.json'
+      - '**/*.png'
+      - '**/*.svg'
+      - '**/*.jpg'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger sync webhook
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" \
+            -X POST "${{ secrets.DSPORTS_API_SYNC_URL }}" \
+            -H "x-webhook-secret: ${{ secrets.LEAGUES_WEBHOOK_SECRET }}" \
+            -H "Content-Type: application/json")
+          echo "Response status: $response"
+          if [ "$response" -ge 400 ]; then
+            echo "::error::Sync webhook failed with status $response"
+            exit 1
+          fi
+          echo "Sync triggered successfully"
