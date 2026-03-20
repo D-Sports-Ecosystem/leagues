@@ -29,7 +29,7 @@
     "accent": "#FFFFFF",
     "text": {
       "on_background": {
-        "color": "#000000",
+        "color": "#FFFFFF",
         "contrast_ratio": 18.92
       },
       "on_primary": {
