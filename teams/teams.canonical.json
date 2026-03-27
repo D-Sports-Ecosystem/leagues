@@ -1,0 +1,421 @@
+{
+  "schemaVersion": "1.1.0",
+  "teams": [
+    {
+      "canonicalName": "HC Sierre",
+      "displayName": "HC Sierre",
+      "slug": "hc-sierre",
+      "leagueCode": "SL",
+      "country": "CH",
+      "category": "professional",
+      "aliases": ["Sierre", "Hockey Club Sierre"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#E30613",
+        "secondaryColor": "#FFCD00",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/HC_Sierre-Anniviers_logo.svg",
+        "logoPath": "teams/assets/SL/hc-sierre/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://hcsierre.ch/",
+            "quality": "official_nickname",
+            "note": "Club is publicly branded as «les Rouges et Jaunes»; hex values are approximations to Swiss red / athletic gold (no single published hex sheet found)."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:HC_Sierre-Anniviers_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Historical franchise name HC Sierre-Anniviers (2003–2011); same club lineage as HC Sierre. Wikipedia fair-use logo; verify with club before commercial reuse."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": "Colors: primary/secondary hex are best-effort from nickname and typical kit, not from a formal brand PDF."
+    },
+    {
+      "canonicalName": "HC Bolzano",
+      "displayName": "HC Bolzano",
+      "slug": "hc-bolzano",
+      "leagueCode": "ICEHL",
+      "country": "IT",
+      "category": "professional",
+      "aliases": ["HCB South Tyrol", "HC Südtirol", "Bolzano Foxes"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#F97316",
+        "secondaryColor": "#1A1A1A",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/1/1d/HCB_South_Tyrol_logo.svg",
+        "logoPath": "teams/assets/ICEHL/hc-bolzano/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://www.hcb.net/",
+            "quality": "visual_identity_secondary",
+            "note": "Current Foxes mark emphasizes orange/black; traditional club colors are also cited as red/white for South Tyrol. Hex for orange/black estimated from logo and third-party logo breakdowns; treat as non-authoritative for print."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:HCB_South_Tyrol_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia fair-use logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Hockey Club Lugano",
+      "displayName": "Hockey Club Lugano",
+      "slug": "hockey-club-lugano",
+      "leagueCode": "NL",
+      "country": "CH",
+      "category": "professional",
+      "aliases": ["HC Lugano", "HCL", "Lugano"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFED00",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e9/HCL_Black_Logo_No_BG.png",
+        "logoPath": "teams/assets/NL/hockey-club-lugano/logo.png",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://en.wikipedia.org/wiki/HC_Lugano",
+            "quality": "encyclopedic_summary",
+            "note": "Nickname Bianconeri; multiple sources list black/white/yellow. Secondary yellow hex approximated from common HCL kit accents."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://commons.wikimedia.org/wiki/File:HCL_Black_Logo_No_BG.png",
+            "quality": "wikimedia_commons",
+            "note": "Commons file marked as copyrighted logo with fair-use rationale on file page; check license before redistribution."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "SC Bern",
+      "displayName": "SC Bern",
+      "slug": "sc-bern",
+      "leagueCode": "NL",
+      "country": "CH",
+      "category": "professional",
+      "aliases": ["Sport Club Bern", "Bern"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#E2001A",
+        "secondaryColor": "#FFCC00",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/7/70/SC_Bern_logo.svg",
+        "logoPath": "teams/assets/NL/sc-bern/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://www.scb.ch/",
+            "quality": "official_merchandise_derived",
+            "note": "SCB uses red, yellow, and black across logo and fan products; exact hex not published on a single English brand sheet—values aligned with common Swiss red / SCB yellow from shop imagery."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:SC_Bern_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia fair-use logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": "Color hex: high confidence on palette family, medium confidence on exact hex without a PDF brand manual."
+    },
+    {
+      "canonicalName": "Barrie Colts",
+      "displayName": "Barrie Colts",
+      "slug": "barrie-colts",
+      "leagueCode": "OHL",
+      "country": "CA",
+      "category": "junior",
+      "aliases": ["Colts", "Barrie"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#003A8A",
+        "secondaryColor": "#FFD548",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/1/18/Barrie_Colts_Logo.svg",
+        "logoPath": "teams/assets/OHL/barrie-colts/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://teamcolorcodes.com/barrie-colts-color-codes/",
+            "quality": "aggregator",
+            "note": "Aggregator listing; not the OHL or team legal department. Matches navy/gold visible in official-style marks."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:Barrie_Colts_Logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia fair-use logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Niagara IceDogs",
+      "displayName": "Niagara IceDogs",
+      "slug": "niagara-icedogs",
+      "leagueCode": "OHL",
+      "country": "CA",
+      "category": "junior",
+      "aliases": ["IceDogs", "Niagara"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#BF0C26",
+        "secondaryColor": "#000000",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/6/64/Niagara_IceDogs_logo.svg",
+        "logoPath": "teams/assets/OHL/niagara-icedogs/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://teamcolorcodes.com/niagara-icedogs-color-codes/",
+            "quality": "aggregator",
+            "note": "Aggregator; consistent with CHL/OHL fan materials."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:Niagara_IceDogs_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia fair-use logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Wisconsin Badgers",
+      "displayName": "Wisconsin Badgers",
+      "slug": "wisconsin-badgers",
+      "leagueCode": "NCAA-BigTen",
+      "country": "US",
+      "category": "college",
+      "aliases": ["Wisconsin", "UW Badgers", "University of Wisconsin"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#C5050C",
+        "secondaryColor": "#FFFFFF",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Wisconsin_Badgers_logo.svg",
+        "logoPath": "teams/assets/NCAA-BigTen/wisconsin-badgers/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://brand.wisc.edu/web/colors/",
+            "quality": "official_university",
+            "note": "Badger Red #C5050C and white as primary web palette."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://commons.wikimedia.org/wiki/File:Wisconsin_Badgers_logo.svg",
+            "quality": "wikimedia_commons",
+            "note": "Verify current trademark policy on Commons file page."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Michigan Wolverines",
+      "displayName": "Michigan Wolverines",
+      "slug": "michigan-wolverines",
+      "leagueCode": "NCAA-BigTen",
+      "country": "US",
+      "category": "college",
+      "aliases": ["Michigan", "UM Wolverines", "University of Michigan"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#00274C",
+        "secondaryColor": "#FFCB05",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Michigan_Wolverines_logo.svg",
+        "logoPath": "teams/assets/NCAA-BigTen/michigan-wolverines/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://brand.umich.edu/design-resources/colors/",
+            "quality": "official_university",
+            "note": "Maize #FFCB05 and Blue #00274C."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://commons.wikimedia.org/wiki/File:Michigan_Wolverines_logo.svg",
+            "quality": "wikimedia_commons",
+            "note": "Verify trademark usage on file page."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Boston College Eagles",
+      "displayName": "Boston College Eagles",
+      "slug": "boston-college-eagles",
+      "leagueCode": "NCAA-HockeyEast",
+      "country": "US",
+      "category": "college",
+      "aliases": ["BC Eagles", "Boston College", "BC"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#8A100B",
+        "secondaryColor": "#D4AF37",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/9/96/Boston_College_Eagles_logo.svg",
+        "logoPath": "teams/assets/NCAA-HockeyEast/boston-college-eagles/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://www.bc.edu/content/bc-web/styles/bc-web-style-guide/color.html",
+            "quality": "official_university",
+            "note": "Maroon from BC web style guide (Pantone 202 C family). Gold listed as PMS 874 C in communications docs; #D4AF37 is a common screen approximation—not a substitute for spot color in print."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:Boston_College_Eagles_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia fair-use logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": "Gold hex is approximate vs Pantone 874."
+    },
+    {
+      "canonicalName": "Maine Black Bears",
+      "displayName": "Maine Black Bears",
+      "slug": "maine-black-bears",
+      "leagueCode": "NCAA-HockeyEast",
+      "country": "US",
+      "category": "college",
+      "aliases": ["Maine", "University of Maine", "UMaine"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#003263",
+        "secondaryColor": "#FFFFFF",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/d/d3/Maine_Black_Bears_logo.svg",
+        "logoPath": "teams/assets/NCAA-HockeyEast/maine-black-bears/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://umaine.edu/brand/",
+            "quality": "official_university",
+            "note": "Dark blue #003263 widely cited in UMaine brand materials and aggregator pages; white as contrast."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:Maine_Black_Bears_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia fair-use logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Chicago Steel",
+      "displayName": "Chicago Steel",
+      "slug": "chicago-steel",
+      "leagueCode": "USHL",
+      "country": "US",
+      "category": "junior",
+      "aliases": ["Steel"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#A2AAAD",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Chicago_Steel_Logo.png",
+        "logoPath": "teams/assets/USHL/chicago-steel/logo.png",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://chicagosteelhockeyteam.com/news/2026/1/5/general-chicago-steel-introduce-new-logo-for-2026-2027.aspx",
+            "quality": "official_press_context",
+            "note": "Team announced a new logo suite for 2026–27; this asset is the pre-2026 Commons upload. Red/silver hex estimated from recent merch and NHL-adjacent red reference; low confidence until a brand sheet is published."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://commons.wikimedia.org/wiki/File:Chicago_Steel_Logo.png",
+            "quality": "wikimedia_commons",
+            "note": "May depict legacy mark; replace when an openly licensed current primary logo is available."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": "Branding in transition (2026–27); colors and logo path may need refresh after new marks ship."
+    },
+    {
+      "canonicalName": "Toronto Maple Leafs",
+      "displayName": "Toronto Maple Leafs",
+      "slug": "toronto-maple-leafs",
+      "leagueCode": "NHL",
+      "country": "CA",
+      "category": "professional",
+      "aliases": ["Maple Leafs", "Leafs", "Toronto"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#00205B",
+        "secondaryColor": "#FFFFFF",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/b/b6/Toronto_Maple_Leafs_2016_logo.svg",
+        "logoPath": "teams/assets/NHL/toronto-maple-leafs/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://teamcolorcodes.com/toronto-maple-leafs-color-codes/",
+            "quality": "aggregator_aligned_nhl",
+            "note": "#00205B widely documented as current Leafs blue (PMS 281 C family); NHL club guidelines supersede this file for commercial use."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:Toronto_Maple_Leafs_2016_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia fair-use NHL logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Florida Panthers",
+      "displayName": "Florida Panthers",
+      "slug": "florida-panthers",
+      "leagueCode": "NHL",
+      "country": "US",
+      "category": "professional",
+      "aliases": ["Panthers"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#041E42",
+        "secondaryColor": "#C8102E",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/4/43/Florida_Panthers_2016_logo.svg",
+        "logoPath": "teams/assets/NHL/florida-panthers/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://www.nhl.com/panthers/team/brandguide",
+            "quality": "official_nhl_team",
+            "note": "Navy #041E42, red #C8102E, gold #B9975B in club brand materials; primary/secondary here are navy and red (gold tertiary)."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:Florida_Panthers_2016_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia fair-use NHL logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    }
+  ]
+}
