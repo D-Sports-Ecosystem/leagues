@@ -416,6 +416,294 @@
       },
       "status": "active",
       "notes": null
+    },
+    {
+      "canonicalName": "D-Sports",
+      "displayName": "D-Sports",
+      "slug": "d-sports",
+      "leagueCode": "DS",
+      "country": "CA",
+      "category": "community",
+      "aliases": ["D Sports", "D-Sports Official"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#4169E1",
+        "secondaryColor": "#F5C842",
+        "logoUrl": "local-repo-asset",
+        "logoPath": "teams/assets/DS/d-sports/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://docs.d-sports.io/",
+            "quality": "platform_brand",
+            "note": "D-Sports platform brand colors used in native and web app theming."
+          },
+          {
+            "aspect": "logo",
+            "citation": "internal d-sports-api public/dslogo.svg",
+            "quality": "first_party_asset",
+            "note": "Sourced from first-party project asset."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": "Platform-owned community/official team."
+    },
+    {
+      "canonicalName": "HC Davos",
+      "displayName": "HC Davos",
+      "slug": "hc-davos",
+      "leagueCode": "NL",
+      "country": "CH",
+      "category": "professional",
+      "aliases": ["Davos", "HCD"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#0050A0",
+        "secondaryColor": "#FFD200",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Logo_HC_Davos.svg",
+        "logoPath": "teams/assets/NL/hc-davos/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://www.hcd.ch/",
+            "quality": "official_team_site",
+            "note": "Blue/yellow club palette from official branding and crest usage."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://commons.wikimedia.org/wiki/File:Logo_HC_Davos.svg",
+            "quality": "wikimedia_commons",
+            "note": "Commons-hosted SVG logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Lausanne HC",
+      "displayName": "Lausanne HC",
+      "slug": "lausanne-hc",
+      "leagueCode": "NL",
+      "country": "CH",
+      "category": "professional",
+      "aliases": ["LHC", "Lausanne"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#D71920",
+        "secondaryColor": "#111111",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/d/d4/Lausanne_HC_logo.svg",
+        "logoPath": "teams/assets/NL/lausanne-hc/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://lausannehc.ch/",
+            "quality": "official_team_site",
+            "note": "Red/black palette inferred from official crest and merchandising."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:Lausanne_HC_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia-hosted team logo SVG."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "ZSC Lions Zürich",
+      "displayName": "ZSC Lions Zürich",
+      "slug": "zsc-lions-zurich",
+      "leagueCode": "NL",
+      "country": "CH",
+      "category": "professional",
+      "aliases": ["ZSC Lions", "ZSC", "Zurich Lions"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#0057A8",
+        "secondaryColor": "#E30613",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/de/a/a4/Logo_ZSC_Lions.svg",
+        "logoPath": "teams/assets/NL/zsc-lions-zurich/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://www.zsclions.ch/",
+            "quality": "official_team_site",
+            "note": "Blue/red club palette from official logo system."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://de.wikipedia.org/wiki/Datei:Logo_ZSC_Lions.svg",
+            "quality": "wikipedia_de_logo",
+            "note": "German Wikipedia logo file."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "London Knights",
+      "displayName": "London Knights",
+      "slug": "london-knights",
+      "leagueCode": "OHL",
+      "country": "CA",
+      "category": "junior",
+      "aliases": ["Knights", "London"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#007A53",
+        "secondaryColor": "#F5C400",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/f/f6/London_Knights_logo.svg",
+        "logoPath": "teams/assets/OHL/london-knights/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://chl.ca/ohl-knights/",
+            "quality": "official_team_site",
+            "note": "Green/gold palette based on official crest and uniforms."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:London_Knights_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia-hosted OHL logo."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Oshawa Generals",
+      "displayName": "Oshawa Generals",
+      "slug": "oshawa-generals",
+      "leagueCode": "OHL",
+      "country": "CA",
+      "category": "junior",
+      "aliases": ["Generals", "Oshawa"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#C32032",
+        "secondaryColor": "#1F3A93",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Oshawa_Generals_Logo.svg",
+        "logoPath": "teams/assets/OHL/oshawa-generals/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://chl.ca/ohl-generals/",
+            "quality": "official_team_site",
+            "note": "Red/blue palette from official crest and jersey usage."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://commons.wikimedia.org/wiki/File:Oshawa_Generals_Logo.svg",
+            "quality": "wikimedia_commons",
+            "note": "Commons-hosted logo SVG."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Ottawa 67's",
+      "displayName": "Ottawa 67's",
+      "slug": "ottawa-67s",
+      "leagueCode": "OHL",
+      "country": "CA",
+      "category": "junior",
+      "aliases": ["Ottawa 67s", "67's", "Ottawa"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#C00000",
+        "secondaryColor": "#000000",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Ottawa_67%27s_logo.svg",
+        "logoPath": "teams/assets/OHL/ottawa-67s/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://chl.ca/ohl-67s/",
+            "quality": "official_team_site",
+            "note": "Red/black palette from official logo and team branding."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://commons.wikimedia.org/wiki/File:Ottawa_67%27s_logo.svg",
+            "quality": "wikimedia_commons",
+            "note": "Commons-hosted logo SVG."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Kingston Frontenacs",
+      "displayName": "Kingston Frontenacs",
+      "slug": "kingston-frontenacs",
+      "leagueCode": "OHL",
+      "country": "CA",
+      "category": "junior",
+      "aliases": ["Frontenacs", "Kingston"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#B5121B",
+        "secondaryColor": "#111111",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/de/6/60/Kingston_Frontenacs.svg",
+        "logoPath": "teams/assets/OHL/kingston-frontenacs/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://chl.ca/ohl-frontenacs/",
+            "quality": "official_team_site",
+            "note": "Red/black palette from current team visual identity."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://de.wikipedia.org/wiki/Datei:Kingston_Frontenacs.svg",
+            "quality": "wikipedia_de_logo",
+            "note": "German Wikipedia vector logo file."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
+    },
+    {
+      "canonicalName": "Sault Ste. Marie Greyhounds",
+      "displayName": "Sault Ste. Marie Greyhounds",
+      "slug": "sault-ste-marie-greyhounds",
+      "leagueCode": "OHL",
+      "country": "CA",
+      "category": "junior",
+      "aliases": ["Greyhounds", "Soo Greyhounds", "Sault Ste. Marie"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#C8102E",
+        "secondaryColor": "#FFFFFF",
+        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/b/bb/Sault_Ste._Marie_Greyhounds_logo.svg",
+        "logoPath": "teams/assets/OHL/sault-ste-marie-greyhounds/logo.svg",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://chl.ca/ohl-greyhounds/",
+            "quality": "official_team_site",
+            "note": "Red/white team palette from official branding."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://en.wikipedia.org/wiki/File:Sault_Ste._Marie_Greyhounds_logo.svg",
+            "quality": "wikipedia_en_nonfree",
+            "note": "Wikipedia-hosted OHL logo file."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": null
     }
   ]
 }
