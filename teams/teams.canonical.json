@@ -450,6 +450,38 @@
       "notes": "Platform-owned community/official team."
     },
     {
+      "canonicalName": "House of Doge",
+      "displayName": "House of Doge",
+      "slug": "house-of-doge",
+      "leagueCode": "DS",
+      "country": "US",
+      "category": "community",
+      "aliases": ["House of Ðoge", "HOD"],
+      "externalRefs": {},
+      "branding": {
+        "primaryColor": "#E4AA4A",
+        "secondaryColor": "#06070D",
+        "logoUrl": "https://www.houseofdoge.com",
+        "logoPath": "teams/assets/DS/house-of-doge/logo.png",
+        "sources": [
+          {
+            "aspect": "colors",
+            "citation": "https://www.houseofdoge.com/news-room",
+            "quality": "first_party_asset",
+            "note": "Official House of Doge media kit brand colors provided to project: Anzac #E4AA4A and Ebony #06070D."
+          },
+          {
+            "aspect": "logo",
+            "citation": "https://www.houseofdoge.com",
+            "quality": "first_party_asset",
+            "note": "Official House of Doge primary circular mark sourced from provided first-party media kit logos bundle."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": "Platform-owned official global team."
+    },
+    {
       "canonicalName": "HC Davos",
       "displayName": "HC Davos",
       "slug": "hc-davos",
