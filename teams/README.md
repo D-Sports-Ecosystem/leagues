@@ -34,3 +34,8 @@ Example: `teams/assets/NHL/toronto-maple-leafs/logo.svg`.
 4. **`country`** is ISO 3166-1 alpha-2 where the home market is unambiguous for the listed team.
 
 `schemaVersion` documents the top-level JSON contract; bump it when you make breaking changes to required fields or types.
+
+## Official Teams
+
+- House of Doge
+- D-Sports
