@@ -1,0 +1,50 @@
+{
+  "league": "ICEHL",
+  "light": {
+    "primary": "#1C3C84",
+    "secondary": "#DC1920",
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 10.35
+      },
+      "on_secondary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 5.0
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
+  },
+  "dark": {
+    "primary": "#4A6FBF",
+    "secondary": "#DC1920",
+    "accent": "#FFFFFF",
+    "text": {
+      "on_background": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 21.0
+      },
+      "on_primary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 4.86
+      },
+      "on_secondary": {
+        "color": "#FFFFFF",
+        "contrast_ratio": 5.0
+      },
+      "on_accent": {
+        "color": "#000000",
+        "contrast_ratio": 21.0
+      }
+    }
+  },
+  "source": "sportsfancovers.com Austrian Hockey League / ICEHL color codes (#1C3C84 blue, #DC1920 red); dark primary lightened for dark-mode surfaces. Confirm against ice.hockey CSS when available."
+}

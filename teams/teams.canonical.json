@@ -8,7 +8,10 @@
       "leagueCode": "SL",
       "country": "CH",
       "category": "professional",
-      "aliases": ["Sierre", "Hockey Club Sierre"],
+      "aliases": [
+        "Sierre",
+        "Hockey Club Sierre"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#E30613",
@@ -40,7 +43,11 @@
       "leagueCode": "ICEHL",
       "country": "IT",
       "category": "professional",
-      "aliases": ["HCB South Tyrol", "HC Südtirol", "Bolzano Foxes"],
+      "aliases": [
+        "HCB South Tyrol",
+        "HC Südtirol",
+        "Bolzano Foxes"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#F97316",
@@ -66,13 +73,63 @@
       "notes": null
     },
     {
+      "canonicalName": "HC Milano",
+      "displayName": "HC Milano",
+      "slug": "hc-milano",
+      "leagueCode": "ICEHL",
+      "country": "IT",
+      "category": "professional",
+      "aliases": [
+        "Milano HC",
+        "Milano Hockey Club",
+        "Hockey Club Milano",
+        "Milano",
+        "MHC"
+      ],
+      "externalRefs": {
+        "eliteprospectsTeamId": "49763"
+      },
+      "branding": {
+        "primaryColor": "#001428",
+        "secondaryColor": "#B31B1E",
+        "logoUrl": "https://files.eliteprospects.com/layout/logos/11a88649-1f0e-4ee1-9f87-aa01a969934f_large.png",
+        "logoPath": "teams/assets/ICEHL/hc-milano/logo.png",
+        "sources": [
+          {
+            "aspect": "logo",
+            "citation": "https://files.eliteprospects.com/layout/logos/11a88649-1f0e-4ee1-9f87-aa01a969934f_large.png",
+            "quality": "official_mark",
+            "note": "Official crest from EliteProspects team media. Cream plate background removed for transparent PNG; gold crown and outlines preserved. Replace if club publishes a cleaner press kit asset."
+          },
+          {
+            "aspect": "colors",
+            "citation": "https://files.eliteprospects.com/layout/logos/11a88649-1f0e-4ee1-9f87-aa01a969934f_large.png",
+            "quality": "derived_from_logo",
+            "note": "Primary navy ~#001428 from shield field; secondary red ~#B31B1E from vertical stripe; gold outline ~#C19A6B; off-white ~#F8F7F2. Aligns with announced Blue/Red/White/Gold social colors."
+          },
+          {
+            "aspect": "colors",
+            "citation": "https://sportal.eu/2026/06/01/milan-hockey-club-celebrates-green-light-for-ice-hockey-league/",
+            "quality": "official_announcement",
+            "note": "Club announcement lists social colors Blue, Red, White, and Gold."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": "Admitted to win2day ICE Hockey League for 2026/27 as 14th club; home arena Milan Ice Fiera Arena (Rho). House of Doge is a principal investor. Distinct from folded Hockey Milano Rossoblu / HC Milano Bears (2008–2022)."
+    },
+    {
       "canonicalName": "Hockey Club Lugano",
       "displayName": "Hockey Club Lugano",
       "slug": "hockey-club-lugano",
       "leagueCode": "NL",
       "country": "CH",
       "category": "professional",
-      "aliases": ["HC Lugano", "HCL", "Lugano"],
+      "aliases": [
+        "HC Lugano",
+        "HCL",
+        "Lugano"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#000000",
@@ -104,7 +161,10 @@
       "leagueCode": "NL",
       "country": "CH",
       "category": "professional",
-      "aliases": ["Sport Club Bern", "Bern"],
+      "aliases": [
+        "Sport Club Bern",
+        "Bern"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#E2001A",
@@ -136,7 +196,10 @@
       "leagueCode": "OHL",
       "country": "CA",
       "category": "junior",
-      "aliases": ["Colts", "Barrie"],
+      "aliases": [
+        "Colts",
+        "Barrie"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#003A8A",
@@ -168,7 +231,10 @@
       "leagueCode": "OHL",
       "country": "CA",
       "category": "junior",
-      "aliases": ["IceDogs", "Niagara"],
+      "aliases": [
+        "IceDogs",
+        "Niagara"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#BF0C26",
@@ -200,7 +266,11 @@
       "leagueCode": "NCAA-BigTen",
       "country": "US",
       "category": "college",
-      "aliases": ["Wisconsin", "UW Badgers", "University of Wisconsin"],
+      "aliases": [
+        "Wisconsin",
+        "UW Badgers",
+        "University of Wisconsin"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#C5050C",
@@ -232,7 +302,11 @@
       "leagueCode": "NCAA-BigTen",
       "country": "US",
       "category": "college",
-      "aliases": ["Michigan", "UM Wolverines", "University of Michigan"],
+      "aliases": [
+        "Michigan",
+        "UM Wolverines",
+        "University of Michigan"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#00274C",
@@ -264,7 +338,11 @@
       "leagueCode": "NCAA-HockeyEast",
       "country": "US",
       "category": "college",
-      "aliases": ["BC Eagles", "Boston College", "BC"],
+      "aliases": [
+        "BC Eagles",
+        "Boston College",
+        "BC"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#8A100B",
@@ -296,7 +374,11 @@
       "leagueCode": "NCAA-HockeyEast",
       "country": "US",
       "category": "college",
-      "aliases": ["Maine", "University of Maine", "UMaine"],
+      "aliases": [
+        "Maine",
+        "University of Maine",
+        "UMaine"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#003263",
@@ -328,7 +410,9 @@
       "leagueCode": "USHL",
       "country": "US",
       "category": "junior",
-      "aliases": ["Steel"],
+      "aliases": [
+        "Steel"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#C8102E",
@@ -360,7 +444,11 @@
       "leagueCode": "NHL",
       "country": "CA",
       "category": "professional",
-      "aliases": ["Maple Leafs", "Leafs", "Toronto"],
+      "aliases": [
+        "Maple Leafs",
+        "Leafs",
+        "Toronto"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#00205B",
@@ -392,7 +480,9 @@
       "leagueCode": "NHL",
       "country": "US",
       "category": "professional",
-      "aliases": ["Panthers"],
+      "aliases": [
+        "Panthers"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#041E42",
@@ -424,7 +514,10 @@
       "leagueCode": "DS",
       "country": "CA",
       "category": "community",
-      "aliases": ["D Sports", "D-Sports Official"],
+      "aliases": [
+        "D Sports",
+        "D-Sports Official"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#4169E1",
@@ -456,7 +549,10 @@
       "leagueCode": "DS",
       "country": "US",
       "category": "community",
-      "aliases": ["House of Ðoge", "HOD"],
+      "aliases": [
+        "House of Ðoge",
+        "HOD"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#E4AA4A",
@@ -488,7 +584,10 @@
       "leagueCode": "NL",
       "country": "CH",
       "category": "professional",
-      "aliases": ["Davos", "HCD"],
+      "aliases": [
+        "Davos",
+        "HCD"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#0050A0",
@@ -520,7 +619,10 @@
       "leagueCode": "NL",
       "country": "CH",
       "category": "professional",
-      "aliases": ["LHC", "Lausanne"],
+      "aliases": [
+        "LHC",
+        "Lausanne"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#D71920",
@@ -552,7 +654,11 @@
       "leagueCode": "NL",
       "country": "CH",
       "category": "professional",
-      "aliases": ["ZSC Lions", "ZSC", "Zurich Lions"],
+      "aliases": [
+        "ZSC Lions",
+        "ZSC",
+        "Zurich Lions"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#0057A8",
@@ -584,7 +690,10 @@
       "leagueCode": "OHL",
       "country": "CA",
       "category": "junior",
-      "aliases": ["Knights", "London"],
+      "aliases": [
+        "Knights",
+        "London"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#007A53",
@@ -616,7 +725,10 @@
       "leagueCode": "OHL",
       "country": "CA",
       "category": "junior",
-      "aliases": ["Generals", "Oshawa"],
+      "aliases": [
+        "Generals",
+        "Oshawa"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#C32032",
@@ -648,7 +760,11 @@
       "leagueCode": "OHL",
       "country": "CA",
       "category": "junior",
-      "aliases": ["Ottawa 67s", "67's", "Ottawa"],
+      "aliases": [
+        "Ottawa 67s",
+        "67's",
+        "Ottawa"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#C00000",
@@ -680,7 +796,10 @@
       "leagueCode": "OHL",
       "country": "CA",
       "category": "junior",
-      "aliases": ["Frontenacs", "Kingston"],
+      "aliases": [
+        "Frontenacs",
+        "Kingston"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#B5121B",
@@ -712,7 +831,11 @@
       "leagueCode": "OHL",
       "country": "CA",
       "category": "junior",
-      "aliases": ["Greyhounds", "Soo Greyhounds", "Sault Ste. Marie"],
+      "aliases": [
+        "Greyhounds",
+        "Soo Greyhounds",
+        "Sault Ste. Marie"
+      ],
       "externalRefs": {},
       "branding": {
         "primaryColor": "#C8102E",
