@@ -1,0 +1,1337 @@
+{
+  "schemaVersion": "1.0.0",
+  "note": "Starters + bench snapshot per club (not a full organizational depth chart). Position vocabulary: G, C, LW, RW, D. Where a club's public roster page only exposes a broad 'Forward' grouping without a center/wing split, entries default to C and carry a per-player 'note' flagging that as unverified. This is a real-season research snapshot (see per-team 'asOf'), not a live feed.",
+  "rosters": {
+    "hc-sierre": {
+      "asOf": "2025-26",
+      "league": "Swiss League",
+      "players": [
+        {
+          "name": "Remo Giovannini",
+          "jersey": 30,
+          "position": "G"
+        },
+        {
+          "name": "Noah In-Albon",
+          "jersey": 34,
+          "position": "G"
+        },
+        {
+          "name": "Maxime Montandon",
+          "jersey": 49,
+          "position": "D"
+        },
+        {
+          "name": "Ryan Mazzola",
+          "jersey": 61,
+          "position": "D"
+        },
+        {
+          "name": "Sacha Berthoud",
+          "jersey": 79,
+          "position": "D"
+        },
+        {
+          "name": "Noah Berthoud",
+          "jersey": 72,
+          "position": "D"
+        },
+        {
+          "name": "Timothy Kast",
+          "jersey": 19,
+          "position": "D"
+        },
+        {
+          "name": "Mike Voellmin",
+          "jersey": 52,
+          "position": "D"
+        },
+        {
+          "name": "Mathieu Vouillamoz",
+          "jersey": 9,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Samuel Asselin",
+          "jersey": 12,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Jordann Bougro",
+          "jersey": 23,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Arnaud Riat",
+          "jersey": 36,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Arnaud Montandon",
+          "jersey": 82,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Eliot Bernazzi",
+          "jersey": 84,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Leonardo Fuhrer",
+          "jersey": 93,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Julien Privet",
+          "jersey": 22,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Damien Prevate",
+          "jersey": 4,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Guillaume Maillard",
+          "jersey": 98,
+          "position": "C",
+          "note": "Club site lists only broad 'Forward'; no line-side split published."
+        }
+      ],
+      "sources": [
+        "https://hcsierre.ch/contingent/",
+        "https://www.eliteprospects.com/team/265/hc-sierre",
+        "https://en.wikipedia.org/wiki/HC_Sierre"
+      ]
+    },
+    "hc-bolzano": {
+      "asOf": "2025-26",
+      "league": "ICE Hockey League",
+      "players": [
+        {
+          "name": "Gianluca Vallini",
+          "jersey": 35,
+          "position": "G"
+        },
+        {
+          "name": "Samuel Harvey",
+          "jersey": 38,
+          "position": "G"
+        },
+        {
+          "name": "Max Gildon",
+          "jersey": 8,
+          "position": "D"
+        },
+        {
+          "name": "Philip Samuelsson",
+          "jersey": 73,
+          "position": "D"
+        },
+        {
+          "name": "Dylan Di Perna",
+          "jersey": 90,
+          "position": "D"
+        },
+        {
+          "name": "Mark Barberio",
+          "jersey": 45,
+          "position": "D"
+        },
+        {
+          "name": "Enrico Miglioranzi",
+          "jersey": 15,
+          "position": "D"
+        },
+        {
+          "name": "Enrico Larcher",
+          "jersey": 53,
+          "position": "D"
+        },
+        {
+          "name": "Daniel Mantenuto",
+          "jersey": 9,
+          "position": "C"
+        },
+        {
+          "name": "Daniel Frank",
+          "jersey": 94,
+          "position": "C",
+          "note": "Source listed as F without L/R/C split; C used as default."
+        },
+        {
+          "name": "Matt Bradley",
+          "jersey": 67,
+          "position": "C"
+        },
+        {
+          "name": "Bryce Misley",
+          "jersey": 18,
+          "position": "C"
+        },
+        {
+          "name": "Matteo Gennaro",
+          "jersey": 21,
+          "position": "C"
+        },
+        {
+          "name": "Brad McClure",
+          "jersey": 19,
+          "position": "C",
+          "note": "Source listed as F without L/R/C split; C used as default."
+        },
+        {
+          "name": "Dustin Gazley",
+          "jersey": 10,
+          "position": "C",
+          "note": "Source listed as W (side unspecified); C used as default."
+        },
+        {
+          "name": "Cole Schneider",
+          "jersey": 24,
+          "position": "LW"
+        },
+        {
+          "name": "Brett Pollock",
+          "jersey": 39,
+          "position": "LW"
+        },
+        {
+          "name": "Cristiano DiGiacinto",
+          "jersey": 11,
+          "position": "LW"
+        }
+      ],
+      "sources": [
+        "https://www.hockeydb.com/ihdb/stats/leagues/seasons/teams/0070802026.html",
+        "https://en.wikipedia.org/wiki/HC_Bozen%E2%80%93Bolzano",
+        "https://www.hcb.net/it/team/roster/"
+      ]
+    },
+    "hc-milano": {
+      "asOf": "2026-27",
+      "league": "ICE Hockey League",
+      "displayNameNote": "Officially 'Milano Hockey Club' (canonical catalog slug is hc-milano). Admitted to the ICEHL starting 2026-27; no 2025-26 roster exists since the club fielded no team that season.",
+      "players": [
+        {
+          "name": "Jacob Smith",
+          "jersey": 30,
+          "position": "G"
+        },
+        {
+          "name": "Edoardo Berti",
+          "jersey": 83,
+          "position": "G"
+        },
+        {
+          "name": "Tory Dello",
+          "jersey": 3,
+          "position": "D"
+        },
+        {
+          "name": "Gregorio Gios",
+          "jersey": 4,
+          "position": "D"
+        },
+        {
+          "name": "Olmo Pietro Albis",
+          "jersey": 5,
+          "position": "D"
+        },
+        {
+          "name": "Scott Valentine",
+          "jersey": 22,
+          "position": "D"
+        },
+        {
+          "name": "Chad Pietroniro",
+          "jersey": 47,
+          "position": "D"
+        },
+        {
+          "name": "Alex Grant",
+          "jersey": 51,
+          "position": "D"
+        },
+        {
+          "name": "Wyatte Wylie",
+          "jersey": 94,
+          "position": "D"
+        },
+        {
+          "name": "Diego Cuglietta",
+          "jersey": 77,
+          "position": "C"
+        },
+        {
+          "name": "Nicholas Caamano",
+          "jersey": 11,
+          "position": "C"
+        },
+        {
+          "name": "Greg McKegg",
+          "jersey": 14,
+          "position": "C"
+        },
+        {
+          "name": "Nicholas Saracino",
+          "jersey": 18,
+          "position": "C"
+        },
+        {
+          "name": "Wade Allison",
+          "jersey": 19,
+          "position": "RW"
+        },
+        {
+          "name": "Tommaso Madaschi",
+          "jersey": 24,
+          "position": "C"
+        },
+        {
+          "name": "Blake McLaughlin",
+          "jersey": 27,
+          "position": "C"
+        },
+        {
+          "name": "Lucas Chiodo",
+          "jersey": 37,
+          "position": "C"
+        },
+        {
+          "name": "Mikael Frycklund",
+          "jersey": 67,
+          "position": "C"
+        },
+        {
+          "name": "Samuel Houde",
+          "jersey": 88,
+          "position": "C"
+        },
+        {
+          "name": "Michael Dal Colle",
+          "jersey": 91,
+          "position": "LW"
+        },
+        {
+          "name": "Giordano Finoro",
+          "jersey": 92,
+          "position": "C"
+        },
+        {
+          "name": "Dante Hannoun",
+          "jersey": 96,
+          "position": "RW"
+        }
+      ],
+      "sources": [
+        "https://it.wikipedia.org/wiki/Milano_Hockey_Club",
+        "https://www.milanosportiva.com/milano-hockey-club-ice-hockey-league-2026-2027/",
+        "https://italia.hockey/2026/06/01/lhockey-club-milano-ammesso-nellice-hockey-league-con-bolzano-e-val-pusteria-ci-saranno-tre-squadre-italiane-nella-stagione-2026-27-che-iniziera-il-18-settembre/",
+        "https://www.eliteprospects.com/transfer/2026/06/16/wade-allison-in-a-confirmed-transaction-to-milano-hockey-club/636540"
+      ]
+    },
+    "hockey-club-lugano": {
+      "asOf": "2025-26",
+      "league": "National League",
+      "players": [
+        {
+          "name": "Niklas Schlegel",
+          "jersey": 34,
+          "position": "G"
+        },
+        {
+          "name": "Joren van Pottelberghe",
+          "jersey": 37,
+          "position": "G"
+        },
+        {
+          "name": "Enzo Guebey",
+          "jersey": 5,
+          "position": "D"
+        },
+        {
+          "name": "Brian Zanetti",
+          "jersey": 9,
+          "position": "D"
+        },
+        {
+          "name": "Santeri Alatalo",
+          "jersey": 22,
+          "position": "D"
+        },
+        {
+          "name": "Mirco Mueller",
+          "jersey": 25,
+          "position": "D"
+        },
+        {
+          "name": "Lassi Thomson",
+          "jersey": 60,
+          "position": "D"
+        },
+        {
+          "name": "Carl Dahlstroem",
+          "jersey": 63,
+          "position": "D"
+        },
+        {
+          "name": "Ramon Tanner",
+          "jersey": 7,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Alessio Bertaggia",
+          "jersey": 10,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Marco Zanetti",
+          "jersey": 11,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Jere Innala",
+          "jersey": 12,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Lorenzo Canonica",
+          "jersey": 14,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Olle Lycksell",
+          "jersey": 15,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Luca Fazzini",
+          "jersey": 17,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Rasmus Kupari",
+          "jersey": 19,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Zach Sanford",
+          "jersey": 21,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Giovanni Morini",
+          "jersey": 23,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Nick Shore",
+          "jersey": 73,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Calvin Thuerkauf",
+          "jersey": 97,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        }
+      ],
+      "sources": [
+        "https://www.hclugano.ch/en/first_team.asp",
+        "https://swisshockeynews.ch/en/national-league/hcl/roster",
+        "https://www.eliteprospects.com/player/24582/santeri-alatalo"
+      ]
+    },
+    "sc-bern": {
+      "asOf": "2025-26",
+      "league": "National League",
+      "players": [
+        {
+          "name": "Sandro Zurkirchen",
+          "jersey": 33,
+          "position": "G"
+        },
+        {
+          "name": "Connor Hughes",
+          "jersey": 30,
+          "position": "G"
+        },
+        {
+          "name": "Louis Fuellemann",
+          "jersey": 14,
+          "position": "D"
+        },
+        {
+          "name": "Simon Kindschi",
+          "jersey": 41,
+          "position": "D"
+        },
+        {
+          "name": "Samuel Kreis",
+          "jersey": 44,
+          "position": "D"
+        },
+        {
+          "name": "Anton Lindholm",
+          "jersey": 37,
+          "position": "D"
+        },
+        {
+          "name": "Ian Mitchell",
+          "jersey": 5,
+          "position": "D"
+        },
+        {
+          "name": "Rolands Naglis",
+          "jersey": 25,
+          "position": "D"
+        },
+        {
+          "name": "Miro Aaltonen",
+          "jersey": 15,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Mats Alge",
+          "jersey": 64,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Benjamin Baumgartner",
+          "jersey": 98,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Emil Bemstroem",
+          "jersey": 71,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Marco Lehmann",
+          "jersey": 23,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Marc Marchon",
+          "jersey": 8,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Waltteri Merelae",
+          "jersey": 19,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Sonny Milano",
+          "jersey": 66,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Tristan Scherwey",
+          "jersey": 10,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Thierry Schild",
+          "jersey": 88,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        }
+      ],
+      "sources": [
+        "https://www.scb.ch/national-league/mannschaft/spieler/",
+        "https://www.swisshockeynews.ch/en/national-league/scb/roster",
+        "https://www.hockeydb.com/ihdb/stats/leagues/seasons/teams/0011682026.html"
+      ]
+    },
+    "barrie-colts": {
+      "asOf": "2025-26",
+      "league": "OHL",
+      "players": [
+        {
+          "name": "Arvin Jaswal",
+          "jersey": 1,
+          "position": "G"
+        },
+        {
+          "name": "Ben Hrebik",
+          "jersey": 62,
+          "position": "G"
+        },
+        {
+          "name": "Kashawn Aitcheson",
+          "jersey": 77,
+          "position": "D"
+        },
+        {
+          "name": "Cole Emerton",
+          "jersey": 41,
+          "position": "D"
+        },
+        {
+          "name": "Parker Von Richter",
+          "jersey": 6,
+          "position": "D"
+        },
+        {
+          "name": "Justin Handsor",
+          "jersey": 16,
+          "position": "D"
+        },
+        {
+          "name": "Evan Passmore",
+          "jersey": 88,
+          "position": "D"
+        },
+        {
+          "name": "Gabriel Eliasson",
+          "jersey": 78,
+          "position": "D"
+        },
+        {
+          "name": "Cole Beaudoin",
+          "jersey": 29,
+          "position": "C"
+        },
+        {
+          "name": "Brad Gardiner",
+          "jersey": 25,
+          "position": "C"
+        },
+        {
+          "name": "Emil Hemming",
+          "jersey": 28,
+          "position": "RW"
+        },
+        {
+          "name": "Joe Salandra",
+          "jersey": 15,
+          "position": "RW"
+        },
+        {
+          "name": "Calvin Crombie",
+          "jersey": 14,
+          "position": "RW"
+        },
+        {
+          "name": "Ben Wilmott",
+          "jersey": 53,
+          "position": "C"
+        },
+        {
+          "name": "William Schneid",
+          "jersey": 11,
+          "position": "RW"
+        },
+        {
+          "name": "Carter Lowe",
+          "jersey": 85,
+          "position": "LW"
+        },
+        {
+          "name": "Alex Assadourian",
+          "jersey": 9,
+          "position": "C"
+        },
+        {
+          "name": "Mason Zebeski",
+          "jersey": 19,
+          "position": "LW"
+        }
+      ],
+      "sources": [
+        "https://www.hockeydb.com/ihdb/stats/leagues/seasons/teams/0008352026.html",
+        "https://chl.ca/ohl/article/2025-26-season-preview-barrie-colts/"
+      ]
+    },
+    "niagara-icedogs": {
+      "asOf": "2025-26",
+      "league": "OHL",
+      "players": [
+        {
+          "name": "Vladislav Yermolenko",
+          "jersey": 32,
+          "position": "G"
+        },
+        {
+          "name": "Charlie Robertson",
+          "jersey": 77,
+          "position": "G"
+        },
+        {
+          "name": "Grayson Tiller",
+          "jersey": 8,
+          "position": "D"
+        },
+        {
+          "name": "Ben Reisnecker",
+          "jersey": 3,
+          "position": "D"
+        },
+        {
+          "name": "Jakub Chromiak",
+          "jersey": 33,
+          "position": "D"
+        },
+        {
+          "name": "Hayden Reid",
+          "jersey": 16,
+          "position": "D"
+        },
+        {
+          "name": "Haoxi Wang",
+          "jersey": 61,
+          "position": "D"
+        },
+        {
+          "name": "Blake Barnes",
+          "jersey": 72,
+          "position": "D"
+        },
+        {
+          "name": "Ryan Roobroeck",
+          "jersey": 25,
+          "position": "LW"
+        },
+        {
+          "name": "Braidy Wassilyn",
+          "jersey": 66,
+          "position": "LW"
+        },
+        {
+          "name": "Kevin He",
+          "jersey": 11,
+          "position": "LW"
+        },
+        {
+          "name": "Ivan Galiyanov",
+          "jersey": 92,
+          "position": "LW"
+        },
+        {
+          "name": "Ethan Czata",
+          "jersey": 12,
+          "position": "C"
+        },
+        {
+          "name": "Ryerson Edgar",
+          "jersey": 17,
+          "position": "C"
+        },
+        {
+          "name": "Riley Patterson",
+          "jersey": 21,
+          "position": "C"
+        },
+        {
+          "name": "Noah Read",
+          "jersey": 93,
+          "position": "C"
+        },
+        {
+          "name": "Jacob Monks",
+          "jersey": 19,
+          "position": "C"
+        },
+        {
+          "name": "Alexander Hage",
+          "jersey": 9,
+          "position": "RW"
+        },
+        {
+          "name": "Sean Doherty",
+          "jersey": 44,
+          "position": "RW"
+        }
+      ],
+      "sources": [
+        "https://www.hockeydb.com/ihdb/stats/leagues/seasons/teams/0047142026.html",
+        "https://thejuniorhockeynews.com/2025-26-season-preview-niagara-icedogs/"
+      ]
+    },
+    "wisconsin-badgers": {
+      "asOf": "2025-26",
+      "league": "NCAA",
+      "players": [
+        {
+          "name": "Daniel Hauser",
+          "jersey": 31,
+          "position": "G"
+        },
+        {
+          "name": "Eli Pulver",
+          "jersey": 30,
+          "position": "G"
+        },
+        {
+          "name": "Luke Osburn",
+          "jersey": 2,
+          "position": "D"
+        },
+        {
+          "name": "Ben Dexheimer",
+          "jersey": 4,
+          "position": "D"
+        },
+        {
+          "name": "Zach Schulz",
+          "jersey": 5,
+          "position": "D"
+        },
+        {
+          "name": "Logan Hensler",
+          "jersey": 6,
+          "position": "D"
+        },
+        {
+          "name": "Joe Palodichuk",
+          "jersey": 14,
+          "position": "D"
+        },
+        {
+          "name": "Weston Knox",
+          "jersey": 26,
+          "position": "D"
+        },
+        {
+          "name": "Kyle Kukkonen",
+          "jersey": 9,
+          "position": "C"
+        },
+        {
+          "name": "Tyson Dyck",
+          "jersey": 16,
+          "position": "C"
+        },
+        {
+          "name": "Oliver Tulk",
+          "jersey": 55,
+          "position": "C"
+        },
+        {
+          "name": "Quinn Finley",
+          "jersey": 19,
+          "position": "LW"
+        },
+        {
+          "name": "Blake Montgomery",
+          "jersey": 47,
+          "position": "LW"
+        },
+        {
+          "name": "Bruno Idzan",
+          "jersey": 91,
+          "position": "LW"
+        },
+        {
+          "name": "Simon Tassy",
+          "jersey": 11,
+          "position": "RW"
+        },
+        {
+          "name": "Vasily Zelenov",
+          "jersey": 94,
+          "position": "RW"
+        },
+        {
+          "name": "Gavin Morrissey",
+          "jersey": 7,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Grady Deering",
+          "jersey": 17,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Wisconsin_Badgers_men's_ice_hockey_season",
+        "https://www.hockeydb.com/ihdb/stats/leagues/seasons/teams/0070732026.html",
+        "https://uwbadgers.com/sports/mens-ice-hockey/roster"
+      ]
+    },
+    "michigan-wolverines": {
+      "asOf": "2025-26",
+      "league": "NCAA",
+      "players": [
+        {
+          "name": "Jack Ivankovic",
+          "jersey": 72,
+          "position": "G"
+        },
+        {
+          "name": "Stephen Peck",
+          "jersey": 31,
+          "position": "G"
+        },
+        {
+          "name": "Luca Fantilli",
+          "jersey": 63,
+          "position": "D"
+        },
+        {
+          "name": "Tyler Duke",
+          "jersey": 5,
+          "position": "D"
+        },
+        {
+          "name": "Ben Robertson",
+          "jersey": 21,
+          "position": "D"
+        },
+        {
+          "name": "Asher Barnett",
+          "jersey": 4,
+          "position": "D"
+        },
+        {
+          "name": "Dakoda Rheaume-Mullen",
+          "jersey": 7,
+          "position": "D"
+        },
+        {
+          "name": "Hunter Hady",
+          "jersey": 3,
+          "position": "D"
+        },
+        {
+          "name": "T.J. Hughes",
+          "jersey": 13,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; center confirmed via secondary source. Team captain."
+        },
+        {
+          "name": "Michael Hage",
+          "jersey": 19,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; center confirmed via secondary source."
+        },
+        {
+          "name": "Jayden Perron",
+          "jersey": 18,
+          "position": "RW",
+          "note": "Official roster lists only 'Forward'; wing side per secondary source, not confirmed on official site."
+        },
+        {
+          "name": "Will Horcoff",
+          "jersey": 44,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Nick Moldenhauer",
+          "jersey": 9,
+          "position": "RW",
+          "note": "Official roster lists only 'Forward'; wing side per secondary source, not confirmed on official site."
+        },
+        {
+          "name": "Kienan Draper",
+          "jersey": 33,
+          "position": "RW",
+          "note": "Official roster lists only 'Forward'; wing side per secondary source. Alternate captain."
+        },
+        {
+          "name": "Malcolm Spence",
+          "jersey": 27,
+          "position": "LW",
+          "note": "Confirmed LW per player bio."
+        },
+        {
+          "name": "Cole McKinney",
+          "jersey": 11,
+          "position": "C"
+        },
+        {
+          "name": "Garrett Schifsky",
+          "jersey": 17,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Adam Valentini",
+          "jersey": 92,
+          "position": "C",
+          "note": "Official roster lists only 'Forward'; no line-side split published."
+        }
+      ],
+      "sources": [
+        "https://mgoblue.com/sports/mens-ice-hockey/roster/2025-26",
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Michigan_Wolverines_men's_ice_hockey_season",
+        "https://www.hockeydb.com/ihdb/stats/leagues/seasons/teams/0070752026.html",
+        "https://www.uscho.com/stats/roster/michigan/mens-hockey/"
+      ]
+    },
+    "boston-college-eagles": {
+      "asOf": "2025-26",
+      "league": "NCAA",
+      "note": "One researched player (James Hagens, #10) was excluded — his active-roster/eligibility status for 2025-26 was flagged uncertain during research (conflicting reports on turning pro mid-cycle after the 2025 NHL Draft) and could not be confirmed.",
+      "players": [
+        {
+          "name": "Louka Cloutier",
+          "jersey": 1,
+          "position": "G"
+        },
+        {
+          "name": "Jan Korec",
+          "jersey": 30,
+          "position": "G"
+        },
+        {
+          "name": "Kristian Kostadinski",
+          "jersey": 2,
+          "position": "D"
+        },
+        {
+          "name": "Drew Fortescue",
+          "jersey": 5,
+          "position": "D"
+        },
+        {
+          "name": "Will Skahan",
+          "jersey": 7,
+          "position": "D"
+        },
+        {
+          "name": "Lukas Gustafsson",
+          "jersey": 8,
+          "position": "D"
+        },
+        {
+          "name": "Michael Hagens",
+          "jersey": 11,
+          "position": "D"
+        },
+        {
+          "name": "Aram Minnetian",
+          "jersey": 17,
+          "position": "D"
+        },
+        {
+          "name": "Teddy Stiga",
+          "jersey": 4,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Oscar Hemming",
+          "jersey": 9,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Jake Sondreal",
+          "jersey": 12,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Landan Resendes",
+          "jersey": 14,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Oskar Jellvik",
+          "jersey": 15,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Paul Davey",
+          "jersey": 18,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Brady Berard",
+          "jersey": 19,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Will Vote",
+          "jersey": 22,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Will Traeger",
+          "jersey": 23,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Andre Gasseau",
+          "jersey": 24,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Timmy Delay",
+          "jersey": 28,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        }
+      ],
+      "sources": [
+        "https://collegehockeyinc.com/teams/boston-college/roster26.php",
+        "https://bceagles.com/sports/mens-ice-hockey/roster"
+      ]
+    },
+    "maine-black-bears": {
+      "asOf": "2025-26",
+      "league": "NCAA",
+      "players": [
+        {
+          "name": "Albin Boija",
+          "jersey": 30,
+          "position": "G"
+        },
+        {
+          "name": "Mathis Rousseau",
+          "jersey": 32,
+          "position": "G"
+        },
+        {
+          "name": "Brandon Holt",
+          "jersey": 4,
+          "position": "D",
+          "note": "Team captain, 2025-26."
+        },
+        {
+          "name": "Frank Djurasevic",
+          "jersey": 44,
+          "position": "D",
+          "note": "Alternate captain, 2025-26."
+        },
+        {
+          "name": "Jeremy Langlois",
+          "jersey": 7,
+          "position": "D"
+        },
+        {
+          "name": "Luke Coughlin",
+          "jersey": 10,
+          "position": "D"
+        },
+        {
+          "name": "Brandon Chabrier",
+          "jersey": 15,
+          "position": "D"
+        },
+        {
+          "name": "Grayson Arnott",
+          "jersey": 23,
+          "position": "D"
+        },
+        {
+          "name": "Thomas Freel",
+          "jersey": 26,
+          "position": "C",
+          "note": "Team captain, 2025-26."
+        },
+        {
+          "name": "Oskar Komarov",
+          "jersey": 38,
+          "position": "C"
+        },
+        {
+          "name": "Jaden Lipinski",
+          "jersey": 41,
+          "position": "C"
+        },
+        {
+          "name": "Owen Fowler",
+          "jersey": 12,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Josh Nadeau",
+          "jersey": 20,
+          "position": "LW"
+        },
+        {
+          "name": "Will Gerrior",
+          "jersey": 22,
+          "position": "LW"
+        },
+        {
+          "name": "Charlie Russell",
+          "jersey": 11,
+          "position": "RW"
+        },
+        {
+          "name": "Thomas Pichette",
+          "jersey": 29,
+          "position": "RW"
+        },
+        {
+          "name": "Miguel Marques",
+          "jersey": 43,
+          "position": "RW"
+        },
+        {
+          "name": "Justin Poirier",
+          "jersey": 93,
+          "position": "RW",
+          "note": "Position conflicting across sources (RW vs LW); RW per majority/draft-profile sources."
+        }
+      ],
+      "sources": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Maine_Black_Bears_men's_ice_hockey_season",
+        "https://www.hockeydb.com/ihdb/stats/leagues/seasons/teams/0005612026.html"
+      ]
+    },
+    "chicago-steel": {
+      "asOf": "2025-26",
+      "league": "USHL",
+      "players": [
+        {
+          "name": "Louis-Felix Charrois",
+          "jersey": 35,
+          "position": "G"
+        },
+        {
+          "name": "Veeti Louhivaara",
+          "jersey": 30,
+          "position": "G"
+        },
+        {
+          "name": "Jason Millett",
+          "jersey": 12,
+          "position": "D"
+        },
+        {
+          "name": "Jonas Kemps",
+          "jersey": 10,
+          "position": "D"
+        },
+        {
+          "name": "Marco Senerchia",
+          "jersey": 20,
+          "position": "D"
+        },
+        {
+          "name": "Cole Tuminaro",
+          "jersey": 25,
+          "position": "D"
+        },
+        {
+          "name": "Trevor Shorter",
+          "jersey": 26,
+          "position": "D"
+        },
+        {
+          "name": "Alex Calbeck",
+          "jersey": 5,
+          "position": "D"
+        },
+        {
+          "name": "Jackson Crowder",
+          "jersey": 13,
+          "position": "C"
+        },
+        {
+          "name": "Tobias Ohman",
+          "jersey": 23,
+          "position": "C"
+        },
+        {
+          "name": "Ashton Schultz",
+          "jersey": 11,
+          "position": "C"
+        },
+        {
+          "name": "Miles Burgin",
+          "jersey": 27,
+          "position": "C"
+        },
+        {
+          "name": "Luke Goukler",
+          "jersey": 14,
+          "position": "LW"
+        },
+        {
+          "name": "Brady Kudrick",
+          "jersey": 28,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "James Scantlebury",
+          "jersey": 19,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Timothy Kazda",
+          "jersey": 18,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Benson Grande",
+          "jersey": 8,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Nathan Chorlton",
+          "jersey": 4,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Kolin Sisson",
+          "jersey": 7,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        },
+        {
+          "name": "Aidan Dyer",
+          "jersey": 21,
+          "position": "C",
+          "note": "Source lists only 'Forward'; no line-side split published."
+        }
+      ],
+      "sources": [
+        "https://www.hockeydb.com/ihdb/stats/leagues/seasons/teams/0029332026.html",
+        "https://ushl.com/news/2025/8/25/top-story-2025-26-eastern-conference-preview.aspx",
+        "https://ushl.com/news/2025/4/29/general-james-scantlebury-signs-tender-with-chicago-steel.aspx"
+      ]
+    }
+  }
+}
