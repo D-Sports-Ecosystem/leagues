@@ -1,6 +1,6 @@
 # Hockey League Assets
 
-Official logos, brand color palettes, and WCAG 2.1 accessibility reports for 17 professional and amateur hockey leagues worldwide.
+Official logos, brand color palettes, and WCAG 2.1 accessibility reports for 19 professional and amateur hockey leagues worldwide.
 
 ## Structure
 
@@ -37,6 +37,8 @@ leagues/
 | [Alps HL](./Austria_Italy_Slovenia/Alps_HL/) | Alps Hockey League | Austria / Italy / Slovenia | PNG |
 | [Czech Extraliga](./Czech_Republic/Czech_Extraliga/) | Extraliga ledního hokeje | Czech Republic | PNG |
 | [EIHL](./United_Kingdom/EIHL/) | Elite Ice Hockey League | United Kingdom | SVG |
+| [ICEHL](./Austria_Italy_Slovenia/ICEHL/) | win2day ICE Hockey League | Austria / Italy / Slovenia / Hungary | SVG |
+| [MHL](./Switzerland/MHL/) | MyHockey League | Switzerland | SVG |
 
 ## Color Schema
 
@@ -100,7 +102,9 @@ Each league folder includes an `accessibility_report.json` with WCAG 2.1 contras
 | KHL | 67% | 52% | 60% | Needs Work |
 | SL | 57% | 62% | 60% | Needs Work |
 | AHL | 48% | 62% | 55% | Needs Work |
+| ICEHL | 57% | 52% | 54% | Needs Work |
 | SHL | 57% | 43% | 50% | Needs Work |
+| MHL | 57% | 43% | 50% | Needs Work |
 | DEL | 48% | 52% | 50% | Needs Work |
 | NHL | 43% | 52% | 48% | Poor |
 | NL | 43% | 52% | 48% | Poor |
