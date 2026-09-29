@@ -73,18 +73,19 @@
       "notes": null
     },
     {
-      "canonicalName": "HC Milano",
-      "displayName": "HC Milano",
-      "slug": "hc-milano",
+      "canonicalName": "Milano HC",
+      "displayName": "Milano HC",
+      "slug": "milano-hc",
       "leagueCode": "ICEHL",
       "country": "IT",
       "category": "professional",
       "aliases": [
-        "Milano HC",
+        "HC Milano",
         "Milano Hockey Club",
         "Hockey Club Milano",
         "Milano",
-        "MHC"
+        "MHC",
+        "hc-milano"
       ],
       "externalRefs": {
         "eliteprospectsTeamId": "49763"
@@ -93,7 +94,7 @@
         "primaryColor": "#001428",
         "secondaryColor": "#B31B1E",
         "logoUrl": "https://files.eliteprospects.com/layout/logos/11a88649-1f0e-4ee1-9f87-aa01a969934f_large.png",
-        "logoPath": "teams/assets/ICEHL/hc-milano/logo.png",
+        "logoPath": "teams/assets/ICEHL/milano-hc/logo.png",
         "sources": [
           {
             "aspect": "logo",
