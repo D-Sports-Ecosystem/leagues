@@ -6,7 +6,7 @@ Guidance for AI coding agents (Cursor, Claude, Windsurf, Warp, GitHub Copilot, e
 
 This is **not** an application. It is a **data-only repository** that holds:
 
-- Official **logos** for 17 professional and amateur hockey leagues worldwide
+- Official **logos** for 19 professional and amateur hockey leagues worldwide
 - Brand **color palettes** (`colors.json`) per league, with light/dark mode variants
 - **WCAG 2.1 contrast audits** (`accessibility_report.json`) for every color-pair combo
 - Per-team rosters / metadata under `teams/`
@@ -27,14 +27,14 @@ leagues/
 │   ├── colors.json                 # Brand palette + accessible text colors
 │   └── accessibility_report.json   # WCAG contrast audit for this league
 ├── teams/                          # Per-team rosters and metadata
-├── accessibility_audit.txt         # Aggregated audit across all 17 leagues
+├── accessibility_audit.txt         # Aggregated audit across all 19 leagues
 ├── accessibility_audit.py          # Generates the audit
 ├── add_text_colors.py              # Computes/writes accessible text colors
 ├── AGENT_IMPLEMENTATION_GUIDE.md   # Detailed authoring guide (read this!)
 └── README.md                       # Public-facing overview
 ```
 
-The 17 leagues currently tracked: NHL, AHL, CHL, OHL, WHL, QMJHL, ECHL, NCAA, SHL, DEL, KHL, LIIGA, NL, SL, Alps HL, Czech Extraliga, EIHL.
+The 19 leagues currently tracked: NHL, AHL, CHL, OHL, WHL, QMJHL, ECHL, NCAA, SHL, DEL, KHL, LIIGA, NL, SL, MHL, Alps HL, ICEHL, Czech Extraliga, EIHL.
 
 ## Data Schema
 
