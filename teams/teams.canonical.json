@@ -120,6 +120,51 @@
       "notes": "Admitted to win2day ICE Hockey League for 2026/27 as 14th club; home arena Milan Ice Fiera Arena (Rho). House of Doge is a principal investor. Distinct from folded Hockey Milano Rossoblu / HC Milano Bears (2008–2022)."
     },
     {
+      "canonicalName": "Pioneers Vorarlberg",
+      "displayName": "Pioneers Vorarlberg",
+      "slug": "vorarlberg",
+      "leagueCode": "ICEHL",
+      "country": "AT",
+      "category": "professional",
+      "aliases": [
+        "Pioneers Vorarlberg",
+        "Pioneers",
+        "Team Vorarlberg",
+        "VEU Feldkirch Pioneers"
+      ],
+      "externalRefs": {
+        "apiSportsHockeyTeamId": "2046"
+      },
+      "branding": {
+        "primaryColor": "#BA0623",
+        "secondaryColor": "#1A171B",
+        "logoUrl": "https://www.pioneers.hockey/wp-content/uploads/2022/06/Logo-Pioneers-Vorarlberg-1000px.png",
+        "logoPath": "teams/assets/ICEHL/vorarlberg/logo.png",
+        "sources": [
+          {
+            "aspect": "logo",
+            "citation": "https://www.pioneers.hockey/wp-content/uploads/2022/06/Logo-Pioneers-Vorarlberg-1000px.png",
+            "quality": "official_mark",
+            "note": "Official shield crest (red PIONEERS banner, black shield, white/grey P) from pioneers.hockey, 1000×1000 transparent PNG. English Wikipedia File:Pioneers Voralberg logo.png is the same mark but only 297×335 and non-free/fair-use; no SVG of this crest is on Wikimedia Commons. Club copyright, not a Commons licence. Verify before commercial reuse."
+          },
+          {
+            "aspect": "colors",
+            "citation": "https://en.wikipedia.org/wiki/Pioneers_Vorarlberg",
+            "quality": "encyclopedic_summary",
+            "note": "English Wikipedia infobox colours are red, black, and white (colour boxes #BA0623, #1A171B, #FFFFFF). German Wikipedia lists Schwarz, Weiß & Rot."
+          },
+          {
+            "aspect": "colors",
+            "citation": "https://www.pioneers.hockey/wp-content/uploads/2022/06/Logo-Pioneers-Vorarlberg-1000px.png",
+            "quality": "derived_from_logo",
+            "note": "Estimated from the crest, not a published brand manual. Primary red #BA0623 is the banner; secondary black #1A171B is the shield field. White #FFFFFF is the third club colour (banner lettering and outline) and is not a separate branding field."
+          }
+        ]
+      },
+      "status": "active",
+      "notes": "ICEHL club in Feldkirch (Vorarlberghalle); top team of VEU Feldkirch. Canonical slug matches the prod Team.slug vorarlberg (api-sports hockey team 2046)."
+    },
+    {
       "canonicalName": "Hockey Club Lugano",
       "displayName": "Hockey Club Lugano",
       "slug": "hockey-club-lugano",
