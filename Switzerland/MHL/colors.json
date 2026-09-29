@@ -1,8 +1,8 @@
 {
-  "league": "ICEHL",
+  "league": "MHL",
   "light": {
-    "primary": "#00437A",
-    "secondary": "#D70A2D",
+    "primary": "#004D6B",
+    "secondary": "#15CCCF",
     "accent": "#FFFFFF",
     "text": {
       "on_background": {
@@ -11,11 +11,11 @@
       },
       "on_primary": {
         "color": "#FFFFFF",
-        "contrast_ratio": 10.08
+        "contrast_ratio": 9.24
       },
       "on_secondary": {
-        "color": "#FFFFFF",
-        "contrast_ratio": 5.29
+        "color": "#000000",
+        "contrast_ratio": 10.57
       },
       "on_accent": {
         "color": "#000000",
@@ -24,8 +24,8 @@
     }
   },
   "dark": {
-    "primary": "#8A9DC0",
-    "secondary": "#D70A2D",
+    "primary": "#15CCCF",
+    "secondary": "#87E5DE",
     "accent": "#FFFFFF",
     "text": {
       "on_background": {
@@ -34,11 +34,11 @@
       },
       "on_primary": {
         "color": "#000000",
-        "contrast_ratio": 7.66
+        "contrast_ratio": 10.57
       },
       "on_secondary": {
-        "color": "#FFFFFF",
-        "contrast_ratio": 5.29
+        "color": "#000000",
+        "contrast_ratio": 14.29
       },
       "on_accent": {
         "color": "#000000",
@@ -46,5 +46,5 @@
       }
     }
   },
-  "source": "ice.hockey official league mark (/images/logos/ligen/ice.svg fills #00437A blue, #D70A2D red) + ice.hockey theme CSS (--ice-blue #00437A; #8A9DC0 site light blue used for dark-mode primary)"
+  "source": "sihf.ch official MyHockey League mark (/media/k0ddi0qn/rz_mhl_logo_portrait_pos_rgb.svg fills #004D6B petrol, #15CCCF mint) + sihf.ch main.css MHL mint theme (--palette-mint #15cccf, --palette-mint-light #87e5de for dark mode)"
 }

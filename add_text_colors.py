@@ -54,7 +54,7 @@ DARK_BG  = "#0D1117"   # near-black navy used in the screenshots
 
 # ── league paths ──────────────────────────────────────────────────────────────
 
-BASE = Path("/Users/sekun/leagues")
+BASE = Path(__file__).resolve().parent
 
 LEAGUES = [
     "North_America/NHL",
@@ -74,6 +74,8 @@ LEAGUES = [
     "Austria_Italy_Slovenia/Alps_HL",
     "Czech_Republic/Czech_Extraliga",
     "United_Kingdom/EIHL",
+    "Austria_Italy_Slovenia/ICEHL",
+    "Switzerland/MHL",
 ]
 
 # ── process each league ───────────────────────────────────────────────────────

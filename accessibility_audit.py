@@ -61,7 +61,7 @@ def emoji_grade(grade):
 
 # ── league discovery ──────────────────────────────────────────────────────────
 
-BASE = Path("/Users/sekun/leagues")
+BASE = Path(__file__).resolve().parent
 
 LEAGUES = [
     ("North_America/NHL",                    "NHL"),
@@ -81,6 +81,8 @@ LEAGUES = [
     ("Austria_Italy_Slovenia/Alps_HL",       "AlpsHL"),
     ("Czech_Republic/Czech_Extraliga",       "Czech Extraliga"),
     ("United_Kingdom/EIHL",                  "EIHL"),
+    ("Austria_Italy_Slovenia/ICEHL",         "ICEHL"),
+    ("Switzerland/MHL",                      "MHL"),
 ]
 
 # ── analysis ──────────────────────────────────────────────────────────────────

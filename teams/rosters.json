@@ -217,10 +217,10 @@
         "https://www.hcb.net/it/team/roster/"
       ]
     },
-    "hc-milano": {
+    "milano-hc": {
       "asOf": "2026-27",
       "league": "ICE Hockey League",
-      "displayNameNote": "Officially 'Milano Hockey Club' (canonical catalog slug is hc-milano). Admitted to the ICEHL starting 2026-27; no 2025-26 roster exists since the club fielded no team that season.",
+      "displayNameNote": "Officially 'Milano Hockey Club' (canonical catalog slug is milano-hc; legacy slug hc-milano). Admitted to the ICEHL starting 2026-27; no 2025-26 roster exists since the club fielded no team that season.",
       "players": [
         {
           "name": "Jacob Smith",
