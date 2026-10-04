@@ -16,8 +16,8 @@
       "branding": {
         "primaryColor": "#E30613",
         "secondaryColor": "#FFCD00",
-        "logoUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/HC_Sierre-Anniviers_logo.svg",
-        "logoPath": "teams/assets/SL/hc-sierre/logo.svg",
+        "logoUrl": "https://hcsierre.ch/wp-content/uploads/2026/04/HC-SIERRE-logo.png",
+        "logoPath": "teams/assets/SL/hc-sierre/logo.png",
         "sources": [
           {
             "aspect": "colors",
@@ -27,14 +27,14 @@
           },
           {
             "aspect": "logo",
-            "citation": "https://en.wikipedia.org/wiki/File:HC_Sierre-Anniviers_logo.svg",
-            "quality": "wikipedia_en_nonfree",
-            "note": "Historical franchise name HC Sierre-Anniviers (2003–2011); same club lineage as HC Sierre. Wikipedia fair-use logo; verify with club before commercial reuse."
+            "citation": "https://hcsierre.ch/wp-content/uploads/2026/04/HC-SIERRE-logo.png",
+            "quality": "official_mark",
+            "note": "Official roundel (red disc, gold sun and S, wordmark HC SIERRE VALAIS) from hcsierre.ch, 1014×1014 transparent PNG. Replaces the historical HC Sierre-Anniviers Wikipedia SVG. Club copyright, not a Commons licence. Verify before commercial reuse."
           }
         ]
       },
       "status": "active",
-      "notes": "Colors: primary/secondary hex are best-effort from nickname and typical kit, not from a formal brand PDF."
+      "notes": "Colors: primary/secondary hex are best-effort from nickname and typical kit, not from a formal brand PDF. Crest is the April 2026 official roundel; canonical slug hc-sierre matches prod Team.slug."
     },
     {
       "canonicalName": "HC Bolzano",
